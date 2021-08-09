@@ -47,25 +47,7 @@ a {     text-decoration: none;
         font-size: 14px;}
 
 a:visited{ color: #000000;}    
-                                                        /*****FLEX-CLASSES*/
 
-.flex-center{ 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
-
-.flex-around {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-}
-
-.flex-between {
-        display: flex; 
-        justify-content: space-between;
-        align-items: center;
-}
 
                                                 /****TOP-PAGE-CONTENT****/
 #page-main-title{
@@ -90,6 +72,12 @@ a:visited{ color: #000000;}
         align-items: center;
 }
 
+.logo-container{
+        display: flex; 
+        align-items: center;
+        width: 930px;   
+}
+
 .no-margin{
         margin: 0;
 }
@@ -103,13 +91,15 @@ a:visited{ color: #000000;}
         border-top: 1px solid transparent;
 }
 
-.nav-bar{
-        display: flex; 
-        align-items: center;   
+
+
+.nav-bar1, .nav-bar2{ display: flex;
+        justify-content: center;
+        align-items: center;
+
 }
 
 .nav-size { 
-        height: 100px;
         display: flex; 
         justify-content: space-between;
         align-items: center;
@@ -127,18 +117,8 @@ a:visited{ color: #000000;}
         align-items: center;
 }
 
-.nav-size-button12{margin-left: 142%;}
-
-.nav-size-button3 {
-        align-items: center;
-}
-
-.links-size{
-        width: 45%;
-}
 
 .link-size{
-        width: 140px;
         height: 99px;
 }
 
