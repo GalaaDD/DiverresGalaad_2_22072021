@@ -33,7 +33,7 @@
 			
 		</header>
 		<div id="research-section" style= "border: solid border 1px yellowgreen">
-			<div id="header_text">
+			<div id="research_text">
 				<h2 id="page-main-title">Trouvez votre hébergement pour des vacances de rêve</h2>
 				<p id="top-page-text">En plein centre ville ou en pleine nature</p>
 			</div>
@@ -41,27 +41,46 @@
 				<div id="searchbar">
 					<button class="iconsize"><i class="fa-solid fa-location-dot fa-lg" style="color:#000000" ></i></button>
 					<div class="reseach"><input type="search"id="input-research" placeholder="Marseille, France" /></div>
-						<button id="search-button" type="button">Rechercher</button>
+					<button id="search-button" type="button">Rechercher</button>
 				</div>	
-				<div class="filter margfilter mobilefilterwrap">
+			</div>
+				<div class="filter margfilter mobilefilterwrap" style="border: solid 2px paleturquoise">
 					<div class="margfiltertitle">
-						<h1 class="secondary-titles">Filtres</h1>
+						<h1 class="secondary-titles" style="border: solid 2px palegoldenrod">Filtres</h1>
 					</div>
 					<!--adding 2 div flexaround-- separate-- mobile-->
 					<!--div1-->
-					<div class="">
-						<a href="#"><div class="flex-center filter-text-icons" id="filter-button1"><i class="fa-solid fa-money-bill-wave icons-filter fa-lg flex-center" style="display: flex;"></i><div class="text-filter flex-center">Économique</div></div></a>
-						<a href="#"><div class="flex-between filter-text-icons" id="filter-button2"><i class="fa-solid fa-child icons-filter fa-lg flex-center"style="display: flex;"></i><div class="text-filter flex-center">Famillial</div></div></a>
+					<div class="filter-buttons-div1" style="border: solid 2px purple">
+						<a href="#">
+							<div class="filter-text-icons" id="filter-button1">
+								<i class="fa-solid fa-money-bill-wave fa-lg"></i>
+								<div class="text-filter">Économique</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="filter-text-icons" id="filter-button2"><i class="fa-solid fa-child fa-lg"></i>
+								<div class="text-filter">Famillial</div>
+							</div>
+						</a>
 					</div>
 					<!--div2-->
-					<div class="mobilefilterwrap">
-						<a href="#"><div class="flex-between filter-text-icons" id="filter-button3"><i class="fa-solid fa-lg fa-heart icons-filter flex-center" style="display: flex;"></i><div class="text-filter flex-center">Romantique</div></div></a>
-						<a href="#"><div class="flex-between filter-text-icons" id="filter-button4"><i class="fa-solid fa-dog icons-filter fa-lg flex-center" style="display:flex;"></i><div class="text-filter flex-center">Annimaux autorisés</div></div></a>
+					<div class="filter-buttons-div2 mobilefilterwrap" style="border: solid 2px purple">
+						<a href="#">
+							<div class=" filter-text-icons" id="filter-button3"><i class="fa-solid fa-heart fa-lg icons-filters"></i>
+								<div class="text-filter">Romantique</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="filter-text-icons" id="filter-button4"><i class="fas fa-dog fa-lg"></i>
+								<div class="text-filter">Annimaux autorisés</div>
+							</div>
+						</a>
 					</div>
 				</div>
-			</div>
 			<div id="info"> 
-				<div class="icon-parent"><i class="fas fa-info fa-xs"></i></div>
+				<div class="icon-parent">
+					<i class="fas fa-info fa-xs"></i>
+				</div>
 				<p id="info-text" class="no-margin">Plus de 500 logements sont disponibles dans cette ville</p>
 			</div>
 		</div>
