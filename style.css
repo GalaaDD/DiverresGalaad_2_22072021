@@ -209,6 +209,7 @@ header{
 }
 
 #search-button{
+        font-weight: 585;
         font-size: 16px;
         color:#ffffff;
         cursor: pointer;
@@ -297,7 +298,7 @@ header{
 
 #info{
         display: flex;
-        align-items: center;
+        align-items: center; 
         
 }
 
@@ -307,7 +308,10 @@ header{
 
 .fa-info{
         color: #0065FC;
+}
 
+.fa-info:before{
+ margin-left: 8px;
 }
 
 .icon-parent {
@@ -639,14 +643,27 @@ article{
          margin-right: 20px;*/
 }
 
-                                                         /****RESPONSIVE-MOBILE-770px****/
+                                                                /****RESPONSIVE-MOBILE-770px****/
 
 @media screen and (max-width: 770px) {
+
+                                                                /****HEADER-RESPONSIVE-770px****/
  .link-size{width: 90%;}
 
- .nav-size-button12{margin-left: 20%;}
+ .nav-size{margin-left: 20%;}
 
   #maincontentsection{height: auto;}
+
+
+                                                                /****ARTICLE-RESPONSIVE-770px****/
+
+ article{ display: flex;
+         flex-direction:column;}
+
+ #article-cards-section{
+        display: flex;
+        flex-direction: column;
+ }      
 
  .cards1{
         flex-direction: column;
@@ -665,13 +682,6 @@ article{
 
  .herbergements{min-height: auto;}
 
- article{ display: flex;
-         flex-direction:column;}
-
- #article-cards-section{
-        display: flex;
-        flex-direction: column;
- }      
 
  .tall-activity-cards{
         width: 100%;
@@ -688,6 +698,9 @@ article{
  #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{height: 200px;}
 
 
+
+                                                        /****FOOTER-RESPONSIVE-770px****/
+
  footer{
          flex-direction: column;
          align-items: flex-start;
@@ -702,6 +715,32 @@ article{
                                                 /****RESPONSIVE-MOBILE-600px****/
 
 @media screen and (max-width: 600px) {
+
+        .logo-container{
+                width: 265px;
+        }
+
+        .nav-bar1{
+                display: flex;
+                order: 2;
+                flex-direction: column;
+                
+        }
+
+        .nav-bar2{
+                display: flex;
+                order: 1;
+                flex-direction: column;
+        }
+
+        #search-button{
+                width: 52px;
+                height: 52px;
+                border-radius: 15px;
+        }
+
+
+
 #article-cards-section{
         display: flex;
         flex-direction: column;
