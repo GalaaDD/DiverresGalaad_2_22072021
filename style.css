@@ -109,11 +109,15 @@ header{
        
 }
 
-.nav-menu1, .nav-menu2, .nav-menu3{
+.nav-menu12, .nav-menu1, .nav-menu2,.nav-menu3{
         display: flex;
         align-items: center;
 }
 
+.nav-menu3{
+        display: flex;
+        align-items: center;
+}
 
 .link-size{
         height: 99px;
@@ -640,7 +644,7 @@ article{
 
  /*#pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
          margin-left: 20px;
-         margin-right: 20px;*/
+         margin-right: 20px;
 }
 
                                                                 /****RESPONSIVE-MOBILE-770px****/
@@ -648,9 +652,6 @@ article{
 @media screen and (max-width: 770px) {
 
                                                                 /****HEADER-RESPONSIVE-770px****/
- .link-size{width: 90%;}
-
- .nav-size{margin-left: 20%;}
 
   #maincontentsection{height: auto;}
 
@@ -715,22 +716,52 @@ article{
                                                 /****RESPONSIVE-MOBILE-600px****/
 
 @media screen and (max-width: 600px) {
+        #bloc-page {
+        
+                max-width: 600px;
+                margin: 0 auto;
+        }
+
+        .nav-size{
+                width: 100%;
+                height: auto;
+                flex-direction: row;
+                flex-wrap: wrap;
+        }
 
         .logo-container{
-                width: 265px;
+                display: flex;
+                width: 165px;
         }
 
+        .link-size{
+                height: 99px;
+        }
+        
         .nav-bar1{
                 display: flex;
+                justify-content: space-around;
                 order: 2;
-                flex-direction: column;
-                
+                flex-wrap: wrap;
+                width:100%;
         }
+
+        .nav-button1{
+                display: flex;
+                width: 50%;
+        }
+        .nav-button2{
+                display: flex;
+                justify-content: space-between;
+                width: 50%; 
+        }
+
 
         .nav-bar2{
                 display: flex;
+                justify-content: space-around;
                 order: 1;
-                flex-direction: column;
+              
         }
 
         #search-button{
@@ -739,10 +770,23 @@ article{
                 border-radius: 15px;
         }
 
+        .navborder{
+                border-top: none;
+        }
 
+        .navborder-mobile:hover {
+                border-top: none 0;
+                border-bottom: 4px solid #0065FC;
+                cursor: pointer;
+        }
+
+        .navborder-mobile{
+                border-bottom: 5px solid #f2f2f2;
+        }
 
 #article-cards-section{
         display: flex;
         flex-direction: column;
-}      
+} 
+
 }
