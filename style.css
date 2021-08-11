@@ -374,6 +374,7 @@ main {
         margin-left: 15px;
         margin-right: 15px;
         padding-bottom: 5px;
+        box-shadow: 5px 5px 5px #F2F2F2;
 }
     
 .host-image {
@@ -432,6 +433,7 @@ aside {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        box-shadow: 5px 5px 5px #F2F2F2;
 }
 
 .trendy-image{
@@ -722,7 +724,7 @@ article{
         }
 
         .secondary-titles {
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: 520;
                 color: black
         }
@@ -735,7 +737,7 @@ article{
         
         p {
                 color: black;
-                font-size: 16px;    
+                font-size: 14px;    
         }
 
         h3 {    margin-bottom: 20px;
@@ -743,7 +745,7 @@ article{
                 color: black
         }
         
-        .main-text-size{font-size: 18px;}
+        
                                                 /****NAV-SECTION-RESPONSIVE-600px****/
         .nav-size{
                 width: 100%;
@@ -860,10 +862,12 @@ article{
                 height: 145px;
                 padding: 0;
                 margin-bottom: 10px;
+                box-shadow: 5px 5px 5px #e0e0e0;
         }
 
         .trendy-cards-titles{
                 margin-bottom: 10px;
+                
         }
         
         #trendy-title{
@@ -872,6 +876,7 @@ article{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                
         }
         
         #trendy-cards-section{
@@ -887,13 +892,13 @@ article{
                 border-top: solid 5px #ffffff;
                 border-bottom: solid 5px #ffffff;
                 border-left: solid 5px #ffffff;
-               
-                
+                margin: 0;
         }
         
         .trendy-text {
-                width:51%;
-                margin-left: 20px;
+                width:45%;
+                margin-left: 0;
+
         }
 
         
@@ -912,6 +917,11 @@ article{
                 border-radius: 0;
                 margin-top: 40px;
                                         }
+        .main-text-size{
+                font-size: 18px;
+                margin-bottom: 5px;
+                line-height: 10px;
+        }
 
         .cards1,.cards2{
                 display: flex;
@@ -920,7 +930,8 @@ article{
                 width: auto;
                 height: auto;
                 margin-right: 20px;
-                                }
+                margin-bottom: 0;
+                                }            
 
         .hebergement {
                 display: flex;
@@ -928,7 +939,8 @@ article{
                 height: 200px;
                 width: 95%;
                 align-items: unset;
-                margin-top:5px;
+                margin-top:20px;
+                box-shadow: 5px 5px 5px #F2F2F2;
         }
 
         .host-image {
@@ -946,21 +958,21 @@ article{
                 flex-direction: column;
                 width: 100%;
                 padding-left: 15px;
-                line-height: 10px;   
+                margin-top: 10px; 
         }
 
         .stars-icons-main{
-                margin: 10px 0 10px 5px;
+                margin: 10px 0 10px 0;
 
         }
 
                                         /****ARTICLE-SECTION-RESPONSIVE-600px****/      
-        #article-cards-section{
-                display: flex;
-                flex-direction: column;
-        } 
         article{ display: flex;
                 flex-direction:column;}
+
+        #article-title{
+                margin-left: 20px;
+        }
 
         #article-cards-section{
                 display: flex;
@@ -972,32 +984,36 @@ article{
                 width: auto;
                 height: auto;
                 margin: 12px 20px 0 20px;
+                box-shadow: 5px 5px 5px #F2F2F2;
 
         }
 
         .card-column { margin-bottom: 50px;}
 
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image, .tall-image{
-        height: 200px;
-        width: 100%;
+                height: 200px;
+                width: 100%;
         }
 
 
-
+        .article-text{
+                display: flex;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 16px;
+        }
                                                        /****FOOTER-RESPONSIVE-600px****/
 
         footer{
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding-left: 20px;
-        margin: 45px auto auto auto;
+                flex-direction: column;
+                align-items: flex-start;
+                font-size: 18px;
+                height: auto;
+                padding-left: 20px;
+                margin: 45px auto auto auto;
         }
 
         footer{padding-left: 0;}
 
 
-        
-
-        }
 }
