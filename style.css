@@ -584,25 +584,93 @@ article{
 
                                                 /****RESPONSIVE****/
 
-                                                 /****RESPONSIVE-1340px****/
+                                                 /****RESPONSIVE-1420px****/
 
-@media screen and (max-width: 1340px){
- .nav-size-button12{
-        margin-left: 35%;
-}
+@media screen and (max-width: 1420px){
 
- /*.hebergement,.trendy {
-       height: 150px;       
- }*/
- 
- /*main, aside{
-         height: auto;
-         padding: 20px;
- }*/
+        #maincontentsection {
+                flex-direction: column-reverse;
+                width: 100%}  
 
- .tab-size-title-trendy{
-         margin-top: 0;
- }
+        .nav-size-button12{
+                margin-left: 35%;
+        }
+
+        .tab-size-title-trendy{
+                margin-top: 0;
+        }
+
+                                                /****ASIDE-SECTION-RESPONSIVE-1420px****/
+        aside {
+                display: flex;
+                width: auto;
+                background-color: #F2F2F2;
+                border-radius: 25px;
+                padding: 40px 20px 35px 20px;
+                margin:0;
+        }
+
+        .trendy{
+                display:flex;
+                width:100%;
+                height: 145px;
+                padding: 0;
+                margin-bottom: 10px;
+                box-shadow: 5px 5px 5px #e0e0e0;
+        }
+
+        .trendy-cards-titles{
+        margin-bottom: 12px;
+        
+        }
+
+        #trendy-title{
+                font-size: 24px;
+                margin-bottom: 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+        
+        }
+
+        #trendy-cards-section{
+                width: 100%;
+        }
+
+        .fa-chart-line{color: #000000;}
+
+        .trendy-image{
+                height: 135px;
+                width: 130px;
+                border-radius: 15px 0 0 15px;
+                border-top: solid 5px #ffffff;
+                border-bottom: solid 5px #ffffff;
+                border-left: solid 5px #ffffff;
+                margin: 0;
+        }
+
+        .trendy-text {
+                width: 53.5%;
+                margin: 0;
+        }
+
+                                       /****MAIN-SECTION-RESPONSIVE-1420px****/
+        #maincontentsection {
+                display: flex;
+                width: auto;
+                margin-top: 40px;
+                                        }		
+        main {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 0;
+                background-color: #ffffff;
+                border-radius: 0;
+                margin-top: 40px;
+                                        }
+
+        }
 }
 
                                                  /****RESPONSIVE- 990px****/
@@ -650,56 +718,162 @@ article{
                                                                 /****RESPONSIVE-MOBILE-770px****/
 
 @media screen and (max-width: 770px) {
-
-                                                                /****HEADER-RESPONSIVE-770px****/
+        .mobilefilterwrap{
+                flex-direction: column;
+                align-items: flex-start;
+                }
 
   #maincontentsection{height: auto;}
 
 
                                                                 /****ARTICLE-RESPONSIVE-770px****/
 
- article{ display: flex;
-         flex-direction:column;}
+ 
 
- #article-cards-section{
-        display: flex;
-        flex-direction: column;
- }      
-
- .cards1{
-        flex-direction: column;
-        margin-bottom:0;
-        margin-bottom: 50px;
- }
-
- .cards2{
-        flex-direction: column;
-        margin-top:0;
- }
-
- .trendy{
-        width:100%;
-        
- }
-
- .herbergements{min-height: auto;}
-
-
- .tall-activity-cards{
-        width: 100%;
-        margin-bottom: 50px;
-}
-
- #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
+  /****NAV-SECTION-RESPONSIVE-600px****/
+  .nav-size{
         width: 100%;
         height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
 }
 
- .card-column { margin-bottom: 50px;}
+.logo-container{
+        display: flex;
+        width: 165px;
+        margin-left: 20px;
+}
 
- #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{height: 200px;}
+.link-size{
+        height: 99px;
+}
+
+.nav-bar1{
+        display: flex;
+        justify-content: space-between;
+        order: 2;
+        flex-wrap: wrap;
+        width:100%;
+}
+
+.nav-menu12{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+}
+
+.nav-bar2{
+        display: flex;
+        justify-content: space-around;
+        order: 1;
+        margin-right: 20px;
+}
+
+.navborder:hover{
+        border-top: none;
+}
+
+.navborder-mobile:hover {
+        border-top: none ;
+        border-bottom: 4px solid #0065FC;
+        cursor: pointer;
+}
+
+.navborder-mobile{
+        border-bottom: 5px solid #f2f2f2;
+        width: 100%;
+}
+
+.nav-menu12, .nav-menu1, .nav-menu2{
+        display: flex;
+        align-items: flex-end;
+        height: 30px;
+        margin: 0;
+}
+
+#input-research{
+        width: 200px;
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+}
+
+#search-button{
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+}
+
+.desktop-none{
+     display: block;   
+}
+
+.mobile-none{
+        display:none;
+}
+
+#searchbar{
+        width: auto;
+        border: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;}
+}
+
+#filter-button1, #filter-button2, #filter-button3, #filter-button4  {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        background-color:#ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        border-radius: 25px;
+}
+
+.margfilter{
+        margin-top: 40px;
+        margin-bottom:40px;
+}
+
+article{ display: flex;
+        flex-direction:column;}
+
+#article-cards-section{
+       display: flex;
+       flex-direction: column;
+}      
+
+.cards1{
+       flex-direction: column;
+       margin-bottom:0;
+       margin-bottom: 50px;
+}
+
+.cards2{
+       flex-direction: column;
+       margin-top:0;
+}
+
+.trendy{
+       width:100%;
+       
+}
+
+.herbergements{min-height: auto;}
 
 
+.tall-activity-cards{
+       width: 100%;
+       margin-bottom: 50px;
+}
+
+#pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
+       width: 100%;
+       height: auto;
+}
+
+.card-column { margin-bottom: 50px;}
+
+#pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{height: 200px;}
 
                                                         /****FOOTER-RESPONSIVE-770px****/
 
@@ -721,6 +895,10 @@ article{
         
                 max-width: 600px;
                 margin: 0 auto;
+        }
+
+        .mobile-page-margin{
+                margin: 0 20px;
         }
 
         .secondary-titles {
@@ -757,6 +935,7 @@ article{
         .logo-container{
                 display: flex;
                 width: 165px;
+                margin-left: 20px;
         }
 
         .link-size{
@@ -780,15 +959,16 @@ article{
         .nav-bar2{
                 display: flex;
                 justify-content: space-around;
-                order: 1; 
+                order: 1;
+                margin-right: 20px;
         }
 
-        .navborder{
+        .navborder:hover{
                 border-top: none;
         }
 
         .navborder-mobile:hover {
-                border-top: none 0;
+                border-top: none ;
                 border-bottom: 4px solid #0065FC;
                 cursor: pointer;
         }
@@ -830,7 +1010,7 @@ article{
                 border: none;
                 display: flex;
                 justify-content: center;
-                margin-top: 16px;}
+                margin-top: 16px;
         }
         
         #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
@@ -866,7 +1046,7 @@ article{
         }
 
         .trendy-cards-titles{
-                margin-bottom: 10px;
+                margin-bottom: 12px;
                 
         }
         
@@ -896,9 +1076,8 @@ article{
         }
         
         .trendy-text {
-                width:45%;
-                margin-left: 0;
-
+                width: 53.5%;
+                margin: 0;
         }
 
         
@@ -929,15 +1108,14 @@ article{
                 justify-content: center;
                 width: auto;
                 height: auto;
-                margin-right: 20px;
                 margin-bottom: 0;
                                 }            
 
         .hebergement {
                 display: flex;
                 flex-direction: column;
-                height: 200px;
-                width: 95%;
+                height: auto;
+                width: 85%;
                 align-items: unset;
                 margin-top:20px;
                 box-shadow: 5px 5px 5px #F2F2F2;
@@ -948,6 +1126,7 @@ article{
                 flex-direction: column;
                 border-radius: 10px 10px 0 0;
                 width:100%;
+                height: 115px;
                 margin: 0;
        }
 
@@ -1014,6 +1193,4 @@ article{
         }
 
         footer{padding-left: 0;}
-
-
 }
