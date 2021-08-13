@@ -1282,7 +1282,7 @@ article{
                 width: auto;
                 background-color: #F2F2F2;
                 border-radius: 0;
-                padding: 40px 20px 35px 20px;
+                padding: 40px 20px 40px 20px;
                 margin:0;
         }
 
@@ -1362,10 +1362,9 @@ article{
                 display: flex;
                 flex-direction: column;
                 height: 200px;
-                width: 92%;
+                width: 88.4%;
                 align-items: unset;
-                margin-top:20px;
-                margin-right: 20px;
+                margin:20px 22px 20px 21px;
                 border: solid #ffffff 5px;
                 box-shadow: 2px 2px 8px #808080;
         }
@@ -1437,7 +1436,7 @@ article{
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card,.tall-activity-cards {
                 width: 94%;
                 height: 190px;
-                margin: 12px 20px 0 20px;
+                margin: 20px 20px 0 20px;
                 box-shadow: 5px 5px 5px #F2F2F2;
                 display: flex;
                 flex-direction: column;
@@ -1458,6 +1457,7 @@ article{
                 margin-top: 20px;
                 margin-bottom: 20px;
                 font-size: 16px;
+                margin: 0;
         }
                                                        /****FOOTER-RESPONSIVE-600px****/
 
