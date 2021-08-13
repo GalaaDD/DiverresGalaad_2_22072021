@@ -897,10 +897,9 @@ article{
                 display: flex;
                 align-items: center;
                 font-weight: bold;
-                width: 100%;
                 background-color:#ffffff;
                 font-family: 'Raleway', sans-serif;
-                font-size: 20px;
+                font-size: 24px;
                 border-radius: 25px;
         }
 
