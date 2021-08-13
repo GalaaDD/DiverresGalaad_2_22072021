@@ -176,6 +176,14 @@ header{
         border-radius: 50px 0 0 50px;
 }
 
+.fa-location-dot{
+        color:#000000 
+}
+
+.fa-location-dot:hover{
+        cursor: pointer;  
+}
+
 #searchbar {
         display: flex;
         justify-content: flex-start;
@@ -515,7 +523,7 @@ article{
 #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{border-radius: 15px 15px 0 0 ;}
 
 .tall-activity-cards{
-        height: 450px;
+        height: 446px;
         width: 300px;
         font-size: 14px;
         box-shadow: 1px 1px 1px #808080;
@@ -624,11 +632,7 @@ article{
                 padding: 0;
         }
 
-        #cards1{
-                flex: none;
-                width: 90%;
-                margin-right: 0;
-                margin-top: 50px;}
+       
 
         #article-cards-section{
                 display: flex;
@@ -701,45 +705,61 @@ article{
                 width: 53.5%;
                 margin: 0;
         }
-        
 
-        .cards1{display: flex;
-                flex-direction: unset;}
+        .article-text{
+                display: flex;
+                margin-top: 5px;
+                margin-bottom: 4px;
+                font-size: 14px;
+        }
 
         .cards2{
                 display: flex;
                 flex-direction: row; 
         }
 
+        #cards1{
+                display: flex;
+                flex-direction: unset;
+                width: 90%;
+                margin-right: 0;
+                margin-top: 50px;
+        }
 
+        .card-column{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+        }
          .cards1,.cards2{
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 width: auto;
                 height: auto;
-                margin-bottom: 0;
         }
 
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
-                height: 200px;
+                height: 80%;
                 width: 100%;
         }
 
         .tall-image{
-                height: 100%;
+                height: 85%;
                 width: 100%;
         }
 
         .tall-activity-cards{
-                height: 400px;
+                height: 416px;
                 width: 50%;
         }
 
+
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-         width: 85%;
-         margin-left: 20px;
-         margin-right: 20px;
+                width: 80%;
+                margin:0 20px 12px 20px;
+                margin-right: 20px;
 }
 
                                                                 /****RESPONSIVE-MOBILE-780px****/
