@@ -1,5 +1,4 @@
 	/*Font CSS*/
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
                                                         /****global-CSS***/	
@@ -611,7 +610,7 @@ article{
 
                                                  /****RESPONSIVE- 990px****/
 
-@media screen and (max-width: 990px) {
+@media only screen and (max-width: 990px) {
         .mobilefilterwrap{
                 flex-direction: column;
                 align-items: flex-start;
@@ -762,9 +761,9 @@ article{
                 margin-right: 20px;
 }
 
-                                                                /****RESPONSIVE-MOBILE-780px****/
+                                                                /****RESPONSIVE-MOBILE-770px****/
 
-@media screen and (max-width: 780px) {
+@media only screen and (max-width: 770px) {
         
         #bloc-page {
                 margin: 0 auto;
@@ -797,7 +796,7 @@ article{
         }
                 
                 
-                                                        /****NAV-SECTION-RESPONSIVE-780px****/
+                                                        /****NAV-SECTION-RESPONSIVE-770px****/
         .nav-size{
                 width: 100%;
                 height: auto;
@@ -903,7 +902,7 @@ article{
                 margin-top: 40px;
                 margin-bottom:40px;
         }
-                                                /****ASIDE-SECTION-RESPONSIVE-780px****/
+                                                /****ASIDE-SECTION-RESPONSIVE-770px****/
         aside {
                 display: flex;
                 width: auto;
@@ -957,7 +956,7 @@ article{
         }
         
                 
-                                                /****MAIN-SECTION-RESPONSIVE-780px****/
+                                                /****MAIN-SECTION-RESPONSIVE-770px****/
         #maincontentsection {
                 display: flex;
                 width: auto;
@@ -1026,7 +1025,7 @@ article{
                 margin: 10px 0 10px 0;
         }
         
-                                                /****ARTICLE-SECTION-RESPONSIVE-780px****/      
+                                                /****ARTICLE-SECTION-RESPONSIVE-770px****/      
         article{ 
                 display: flex;
                 flex-direction:column;
@@ -1063,7 +1062,7 @@ article{
                 font-size: 16px;
         }
                         
-                                                               /****FOOTER-RESPONSIVE-780px****/
+                                                               /****FOOTER-RESPONSIVE-770px****/
         
         footer{
                 flex-direction: column;
@@ -1080,7 +1079,7 @@ article{
 
                                                 /****RESPONSIVE-MOBILE-600px****/
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
         #bloc-page {
         
                 max-width: 600px;
@@ -1225,6 +1224,7 @@ article{
                 margin-top: 40px;
                 margin-bottom:40px;
         }
+
                                         /****ASIDE-SECTION-RESPONSIVE-600px****/
         aside {
                 display: flex;
@@ -1279,6 +1279,7 @@ article{
 
         
                                         /****MAIN-SECTION-RESPONSIVE-600px****/
+
         #maincontentsection {
                 display: flex;
                 width: auto;
@@ -1343,7 +1344,8 @@ article{
 
                                         /****ARTICLE-SECTION-RESPONSIVE-600px****/      
         article{ display: flex;
-                flex-direction:column;}
+                flex-direction:column;
+        }
 
         #article-title{
                 margin-left: 20px;
@@ -1402,6 +1404,4 @@ article{
                 margin: 45px auto auto auto;
                 padding-left: 0;
         }
-
-        
 }
