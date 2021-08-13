@@ -882,9 +882,6 @@ article{
         }
 
         #research-section{ width: 100%;
-                display: flex;
-                flex-direction: column;
-
 
         }
 
@@ -895,25 +892,33 @@ article{
                 justify-content: center;
                 margin-top: 16px;
         }
-          
-        .filter-buttons-div1{
-                width: auto;
-        }
-
+                
         #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
                 display: flex;
                 align-items: center;
-                width: 85%;
                 font-weight: bold;
+                width: 100%;
                 background-color:#ffffff;
                 font-family: 'Raleway', sans-serif;
-                font-size: 14px;
+                font-size: 20px;
                 border-radius: 25px;
         }
 
-        #filter-button2{
-                margin-left: -2px;
+        .filter-buttons-div1{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
         }
+
+        .text-filter{
+                padding: 0;
+        }
+
+        .filter-text-icons{
+        display: flex; 
+        justify-content: space-between;
+        }
+        
 
         .margfilter{
                 margin-top: 40px;
