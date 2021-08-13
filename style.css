@@ -880,7 +880,14 @@ article{
         .mobile-none{
                 display:none;
         }
-        
+
+        #research-section{ width: 100%;
+                display: flex;
+                flex-direction: column;
+
+
+        }
+
         #searchbar{
                 width: auto;
                 border: none;
@@ -888,14 +895,19 @@ article{
                 justify-content: center;
                 margin-top: 16px;
         }
-                
+          
+        .filter-buttons-div1{
+                width: auto;
+        }
+
         #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
                 display: flex;
                 align-items: center;
+                width: 85%;
                 font-weight: bold;
                 background-color:#ffffff;
                 font-family: 'Raleway', sans-serif;
-                font-size: 24px;
+                font-size: 14px;
                 border-radius: 25px;
         }
 
