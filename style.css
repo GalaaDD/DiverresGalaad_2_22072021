@@ -176,6 +176,14 @@ header{
         border-radius: 50px 0 0 50px;
 }
 
+.fa-location-dot{
+        color:#000000 
+}
+
+.fa-location-dot:hover{
+        cursor: pointer;  
+}
+
 #searchbar {
         display: flex;
         justify-content: flex-start;
@@ -515,7 +523,7 @@ article{
 #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{border-radius: 15px 15px 0 0 ;}
 
 .tall-activity-cards{
-        height: 450px;
+        height: 446px;
         width: 300px;
         font-size: 14px;
         box-shadow: 1px 1px 1px #808080;
