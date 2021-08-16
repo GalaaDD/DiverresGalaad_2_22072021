@@ -319,10 +319,10 @@ nav {
 /****MAIN-SECTION****/
 #maincontentsection {
         display: flex;
-        width: 1340px;
-        margin-top: 40px;
+        width: 100%;
 }							
 /****MAIN****/
+
 .main-container{
         display: flex;
         flex-direction: row;
@@ -372,70 +372,35 @@ nav {
         margin-top: 10px;
         margin-bottom: 10px;
 }
+
 /****ASIDE*****/
 
-aside {
-        width: 30%;
+.aside-container {
+        width: 40%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
         background-color: #F2F2F2;
-        display: flex;
-        flex-flow: column wrap;
         border-radius: 25px;
-        padding: 45px 40px 0px 35px;
-        margin-left: 40px;
-}
-
-.trendy-cards-titles{
-        margin-bottom: 10px;
-}
-
-#trendy-title{
-        font-size: 24px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 }
 
 .fa-chart-line{color: #000000;}
 
 .trendy{
         height: 145px;
-        width: 348px;
         font-size: 14px;
         background-color: #ffffff;
         border-radius: 20px;
-        margin-bottom: 30px;
-        margin-right: 0;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
         box-shadow: 1px 1px 1px #808080;
 }
 
 .trendy-image{
         height: 135px;
-        width: 128px;
+        width: 35%;
         border-radius: 15px 0 0 15px;
         border-top: solid 5px #ffffff;
         border-bottom: solid 5px #ffffff;
         border-left: solid 5px #ffffff;
-        justify-content: center;
-        align-content: center;
-}
-
-.trendy-text {
-        width:145px;
-}
-
-.trendy-text-size{
-        margin-bottom: 0;
-        margin-top: 2px;
-
-}
-
-.stars-icons-trendy {
-        margin-top: 40px;
-        margin-bottom: 10px;
 }   
 
 /****ARTICLE****/
