@@ -4,14 +4,8 @@
 /****global-CSS***/	
 
 #bloc-page {
-<<<<<<< HEAD
-
-max-width: 1280px;
-margin: 0 auto;
-=======
         max-width: 1340px;
         margin: 0 auto;
->>>>>>> top-page-update
 }
 
 .desktop-none{
@@ -362,19 +356,11 @@ margin-right: 5px;
 }
 
 .host-image {
-<<<<<<< HEAD
-border-radius: 10px 10px 0 0;
-width:235px;
-height: 115px;
-margin-top: 5px;
-margin-bottom: 10px;
-=======
         border-radius: 15px 15px 0 0;
         width:235px;
         height: 110px;
         margin-top: 5px;
         margin-bottom: 10px;
->>>>>>> top-page-update
 }
 
 .host-text {
