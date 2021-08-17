@@ -4,7 +4,7 @@
 /****global-CSS***/	
 
 #bloc-page {
-        max-width: 1280px;
+        max-width: 1340px;
         margin: 0 auto;
 }
 
@@ -325,20 +325,15 @@ nav {
 .main-container{
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
         align-content: flex-start;
-        width: 100%;
+        width: 80%;
         height: auto;
         background-color: #F2F2F2;
         border-radius: 25px;
+        padding: 45px 25px 0 25px;
+        margin-right: 40px;
 }
 
-.aside-main-title{
-        display: flex;
-        align-items: center;
-        align-content: flex-start;
-        justify-content: space-around;
-}
 
 .cards {
         width: 100%;
@@ -358,6 +353,7 @@ nav {
         align-items: center;
         padding-bottom: 5px;
         box-shadow: 1px 1px 1px #808080;
+        margin-bottom: 25px;
 }
 
 .host-image {
@@ -384,12 +380,20 @@ nav {
 
 .aside-container {
         width: 30%;
-        flex-direction: column;
         display: flex;
+        flex-direction: column;
         background-color: #F2F2F2;
         border-radius: 25px;
         padding: 45px 40px 0px 35px;
 }
+
+.aside-main-title{
+        display: flex;
+        align-items: center;
+        align-content: flex-start;
+        justify-content: space-between;
+}
+
 
 .fa-chart-line{color: #000000;}
 
@@ -399,11 +403,11 @@ nav {
 }
 
 .trendy{
-        height: 145px;
+        height: 135px;
         width: 100%;
         font-size: 14px;
         background-color: #ffffff;
-        border-radius: 20px;
+        border-radius: 25px;
         box-shadow: 1px 1px 1px #808080;
         display: flex;
         flex-wrap: wrap;
@@ -411,14 +415,12 @@ nav {
 }
 
 .trendy-image{
-        height: 135px;
+        height: 130px;
         width: 130px;
-        border-radius: 15px 0 0 15px;
-        border-top: solid 5px #ffffff;
-        border-bottom: solid 5px #ffffff;
-        border-left: solid 5px #ffffff;
-        flex-direction: column;
-        flex-wrap: wrap;
+        border-radius: 20px 0 0 15px;
+        border-top: solid 4px #ffffff;
+        border-bottom: solid 3px #ffffff;
+        border-left: solid 4px #ffffff;
 }   
 
 .card-link{
