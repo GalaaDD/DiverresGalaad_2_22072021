@@ -34,13 +34,10 @@ img{
 object-fit: cover;
 }
 
-img{
-        object-fit: cover;
-}
-
-h3 {    margin-bottom: 20px;
-font-weight: 520;
-color: black
+h3 {    
+        margin-bottom: 20px;
+        font-weight: 520;
+        color: black
 }
 /****GENERAL-TEXT-AND-CLASSES****/
 
@@ -135,6 +132,7 @@ font-size: 12px;
 color: #0065FC;
 font-size: 12px;
 }
+
 /****RESEARCH-SECTION****/
 .iconsize{
 height: 50px;
@@ -313,18 +311,21 @@ margin-right: 5px;
 
 
 /****MAIN-SECTION****/
+
 #maincontentsection {
         display: flex;
         width: 100%;
-}							
+}	
+
 /****MAIN****/
 
 .main-container{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
         width: 100%;
-        padding: 45px 25px 0 25px;
+        height: auto;
         background-color: #F2F2F2;
         border-radius: 25px;
 }
@@ -333,6 +334,7 @@ margin-right: 5px;
         width: 100%;
         height: 200px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
 }
 
@@ -355,8 +357,6 @@ margin-top: 5px;
 margin-bottom: 10px;
 }
 
-.host-title{margin:0;}
-
 .host-text {
 display: flex;
 flex-direction: column;
@@ -372,9 +372,8 @@ margin-bottom: 10px;
 /****ASIDE*****/
 
 .aside-container {
-        width: 40%;
+        width: 30%;
         flex-direction: column;
-        flex-wrap: wrap;
         display: flex;
         background-color: #F2F2F2;
         border-radius: 25px;
@@ -382,22 +381,42 @@ margin-bottom: 10px;
 
 .fa-chart-line{color: #000000;}
 
+.trendy-text-card{ 
+        width: 45%;
+        flex-wrap: wrap;
+}
+
 .trendy{
         height: 145px;
+        width: 100%;
         font-size: 14px;
         background-color: #ffffff;
         border-radius: 20px;
         box-shadow: 1px 1px 1px #808080;
+        display: flex;
+        flex-wrap: wrap;
+        
 }
 
 .trendy-image{
         height: 135px;
-        width: 35%;
+        width: 130px;
         border-radius: 15px 0 0 15px;
         border-top: solid 5px #ffffff;
         border-bottom: solid 5px #ffffff;
         border-left: solid 5px #ffffff;
+        flex-direction: column;
+        flex-wrap: wrap;
 }   
+
+.card-link{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction : column;
+        justify-content: space-around;
+        width: 345px;
+        height: 135px;    
+}
 
 /****ARTICLE****/
 
