@@ -79,7 +79,7 @@ header{
 .logo-container{
         display: flex; 
         align-items: center;
-        width: 955px;   
+        width: 80%;   
 }
 
 .no-margin{
@@ -99,17 +99,19 @@ nav {
 .nav-menu{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-}
-
-.nav-menu3{
-        display: flex;
-        align-items: center;
+        justify-content: space-around;
 }
 
 .navborder{
         color:#000000;
-        font-size: 20px;
+        font-size: 15px;
+}
+
+#nav-button3{
+        color:#0065FC;
+        font-weight: bold;
+        font-size: 15px;
+        list-style-type:  none;
 }
 
 .navborder:hover {
@@ -117,14 +119,6 @@ nav {
         color: #0065FC;
         padding-top: 40px;
 }
-
-#nav-button3{
-        color:#0065FC;
-        font-weight: bold;
-        font-size: 20px;
-        list-style-type:  none;
-}
-
 .fa-star-grey {
         color:#e0e0e0;
         font-size: 12px;
@@ -288,7 +282,7 @@ nav {
 
 #info{
         display: flex;
-        align-items: center; 
+        margin-bottom: 40px;
 
 }
 
@@ -301,6 +295,7 @@ nav {
 }
 
 .fa-info:before{
+        align-content: center;
         margin-left: 8px;
 }
 
@@ -330,12 +325,13 @@ nav {
         height: auto;
         background-color: #F2F2F2;
         border-radius: 25px;
-        padding: 45px 25px 0 25px;
+        padding: 30px 25px 0 25px;
         margin-right: 40px;
 }
 
 #main-title{
-        justify-content: flex-start;
+       line-height: 20px;
+       margin-left: 15px;
 }
 .cards {
         width: 100%;
