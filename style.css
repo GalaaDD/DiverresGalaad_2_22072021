@@ -92,7 +92,6 @@ nav {
 
 .nav-bar { 
         display: flex;
-        justify-content: center;
         align-items: center;
 }
 
@@ -389,7 +388,7 @@ nav {
         flex-direction: column;
         background-color: #F2F2F2;
         border-radius: 25px;
-        padding: 45px 40px 0px 35px;
+        padding: 20px 40px 0px 35px;
 }
 
 .aside-main-title{
@@ -397,6 +396,7 @@ nav {
         align-items: center;
         align-content: flex-start;
         justify-content: space-between;
+        line-height: 40px;
 }
 
 
