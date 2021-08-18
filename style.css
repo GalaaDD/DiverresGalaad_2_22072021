@@ -324,7 +324,7 @@ nav {
         height: auto;
         background-color: #F2F2F2;
         border-radius: 25px;
-        padding: 30px 25px 0 25px;
+        padding: 30px 40px 0 45px;
         margin-right: 40px;
 }
 
@@ -338,7 +338,7 @@ nav {
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
-        justify-content: space-around;
+        justify-content: space-between;
 }
 
 .hebergement {
@@ -378,6 +378,7 @@ nav {
         font-size: 14px;
         line-height: 40px;
         margin-left: 20px;
+        margin-bottom: 60px;
 }
 
 /****ASIDE*****/
@@ -408,7 +409,7 @@ nav {
 }
 
 .trendy{
-        height: 135px;
+        height: 145px;
         width: 100%;
         font-size: 14px;
         background-color: #ffffff;
@@ -592,8 +593,8 @@ footer {
         */
 
         #bloc-page {
-                max-width: 600px;
-                margin: 0 auto;
+                width: 100%;
+                margin: 0;
         }
 
         .mobile-page-margin{
@@ -662,7 +663,7 @@ footer {
                 margin-bottom: 0;
         }
 
-        .nav-menu12{
+        .nav-menu{
                 display: flex;
                 justify-content: space-around;
                 width: 100%;
@@ -672,7 +673,6 @@ footer {
                 display: flex;
                 justify-content: space-around;
                 order: 1;
-                margin-right: 20px;
         }
 
         .navborder:hover{
@@ -690,7 +690,7 @@ footer {
                 width: 100%;
         }
 
-        .nav-menu12, .nav-menu1, .nav-menu2{
+        .nav-menu{
                 display: flex;
                 align-items: flex-end;
                 height: 30px;
@@ -872,8 +872,6 @@ footer {
                 margin: 0;
         }
 
-        t-title{margin-top: 10px;}
-
         .host-text {
                 display: flex;
                 flex-direction: column;
@@ -918,7 +916,7 @@ footer {
                 width: 100%;
         }      
 
-        .cards1,.cards2{
+        .cards{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
