@@ -359,14 +359,10 @@ nav {
         width:235px;
         height: 110px;
         margin-top: 5px;
-        margin-bottom: 10px;
 }
 
 .host-text {
-        display: flex;
-        flex-direction: column;
-        padding-left: 15px;
-        line-height: 10px;   
+        padding-left: 15px;   
 }
 
 .main-text-size{
