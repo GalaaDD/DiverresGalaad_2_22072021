@@ -360,7 +360,6 @@ nav {
 }
 
 .main-text-size{
-        margin-top: 10px;
         margin-bottom: 10px;
 }
 
@@ -408,7 +407,6 @@ nav {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 30px;
-        justify-content: center:
 }
 
 .trendy-image{
@@ -513,9 +511,7 @@ article{
         width: 305px;
 }
 
-.card-column{
-        justify-content: space-around;
-}
+
 
 #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
         box-shadow: 1px 1px 1px #808080; 
@@ -581,7 +577,7 @@ footer {
 
         #bloc-page {
                 max-width: 375px;
-                margin: 0 22.5px;
+                margin: 0 auto;
         }
 
         body{ width: 100%;}
@@ -736,11 +732,11 @@ footer {
         }
 
         .trendy{
-                display:flex;
                 width:100%;
                 height: 145px;
                 padding: 0;
                 margin-bottom: 10px;
+                border: none;
                 box-shadow: 5px 5px 5px #e0e0e0;
         }
 
@@ -782,7 +778,8 @@ footer {
                 background-color: #ffffff;
                 border-radius: 0;
                 margin-top: 40px;
-                align-content: unset;
+                align-content: center;
+                display: flex;
 
         }
 
@@ -797,16 +794,16 @@ footer {
                 line-height: 10px;
         }
 
-        .cards{
+        .cards {
                 width: 100%;
                 height: auto;
-                align-content: none;
-                justify-content: none;
+                align-content: center;
+                justify-content:space-between;
         }            
 
         .hebergement {
                 height: 200px;
-                width: 325px;;
+                width: 325px;
                 align-items: unset;
                 margin:20px 20px 20px 20px;
                 border: solid #ffffff 5px;
@@ -869,8 +866,8 @@ footer {
         }      
 
 
-        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card, .tall-activity-cards {
-                width: 340px;
+        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
+                width: 335px;
                 height: 190px;
                 box-shadow: 5px 5px 5px #F2F2F2;
                 border-radius: 20px;
@@ -879,12 +876,21 @@ footer {
 
         .card-column { margin-bottom: 0;}
 
-        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image, .tall-image{
+        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
                 height: 135px;
-                width: 85%;
+                width: 335px;
         }
 
+        .tall-image{ 
+                height: 135px;
+                width: 335px;
+        }
 
+        .tall-activity-cards{
+                height: 190px;
+                width: 335px;
+                margin: 0 20px 12px 20px;
+        }
         .article-text{
                 display: flex;
                 margin-top: 20px;
@@ -936,7 +942,6 @@ footer {
 
 
         #article-cards-section{
-                display: flex;
                 justify-content: space-between;
                 background-color: #ffffff;
                 margin-top: 25px;
@@ -996,6 +1001,7 @@ footer {
 
         .main-end-title{
                 align-content: flex-end;
+                width: 100%;
         }
 
         .cards{
@@ -1008,13 +1014,8 @@ footer {
                 height: auto;
         }
 
-        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image, .tall-activity-cards{
+        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
                 height: 80%;
-                width: 100%;
-        }
-
-        .tall-image{
-                height: 85%;
                 width: 100%;
         }
 
@@ -1027,7 +1028,7 @@ footer {
 
 
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-                width: 80%;
+                width: auto;
                 margin:0 20px 12px 20px;
                 margin-right: 20px;
         }
