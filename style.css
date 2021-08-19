@@ -74,15 +74,9 @@ margin: 40px auto 40px auto;
 }
 /****NAVIGATION-MENU****/
 .logo-container{
-<<<<<<< HEAD
-display: flex; 
-align-items: center;
-width: 955px;   
-=======
         display: flex; 
         align-items: center;
         width: 80%;   
->>>>>>> top-page-update
 }
 
 .no-margin{
@@ -94,40 +88,6 @@ width: 400px;
 }
 
 .nav-bar { 
-<<<<<<< HEAD
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.nav-menu{
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-.nav-menu3{
-display: flex;
-align-items: center;
-}
-
-.navborder{
-color:#000000;
-font-size: 20px;
-}
-
-.navborder:hover {
-border-top: 2px solid #0065FC;
-color: #0065FC;
-padding-top: 40px;
-}
-
-#nav-button3{
-color:#0065FC;
-font-weight: bold;
-font-size: 20px;
-list-style-type:  none;
-=======
         display: flex;
         align-items: center;
 }
@@ -148,7 +108,6 @@ list-style-type:  none;
         font-weight: bold;
         font-size: 15px;
         list-style-type:  none;
->>>>>>> top-page-update
 }
 
 .navborder:hover {
