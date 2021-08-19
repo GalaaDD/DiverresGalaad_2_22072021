@@ -344,7 +344,6 @@ nav {
         height: 200px;
         background-color: #ffffff;
         border-radius: 20px;
-        display:flex;
         flex-direction: column;
         align-items: center;
         padding-bottom: 5px;
@@ -440,7 +439,6 @@ article{
         background-color: #ffffff;
         border-radius: 20px;
         margin-top: 60px;
-        margin-right: 60px;
 }	
 
 #article-cards-section{
@@ -520,7 +518,6 @@ article{
 }
 
 .card-column{
-        display: flex;
         justify-content: space-around;
 }
 
@@ -587,9 +584,11 @@ footer {
         */
 
         #bloc-page {
-                width: 100%;
+                width: 375px;
                 margin: 0;
         }
+
+        body{ width: 100%;}
 
         .mobile-page-margin{
                 margin: 0 ;
@@ -635,8 +634,6 @@ footer {
                 width: 100%;
                 order: 1;
         }
-       
-        .nav-menu{}
 
         .nav-bar2{
                 flex-wrap: wrap;
@@ -735,8 +732,7 @@ footer {
 
         /****ASIDE-SECTION-RESPONSIVE-MOBILE****/
         .aside-container {
-                display: flex;
-                width: auto;
+                width: 90%;
                 background-color: #F2F2F2;
                 border-radius: 0;
                 padding: 40px 20px 40px 20px;
@@ -789,20 +785,17 @@ footer {
         /****MAIN-SECTION-RESPONSIVE-MOBILE****/
 
         #maincontentsection {
-                display: flex;
-                width: auto;
-                margin-top: 40px;
+                width: 100%;
         }
 
         .main-container {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
                 width: 100%;
                 padding: 0;
                 background-color: #ffffff;
                 border-radius: 0;
                 margin-top: 40px;
+                align-content: unset;
+
         }
 
         .main-title{
@@ -816,17 +809,23 @@ footer {
                 line-height: 10px;
         }
 
+        .cards{
+                width: 100%;
+                height: auto;
+                align-content: none;
+                justify-content: none;
+        }            
+
         .hebergement {
-                display: flex;
-                flex-direction: column;
                 height: 200px;
                 width: 325px;;
                 align-items: unset;
                 margin:20px 20px 20px 20px;
                 border: solid #ffffff 5px;
                 box-shadow: 2px 2px 8px #808080;
-                border-radius: 20px
-}
+                border-radius: 20px;
+                padding: 0;
+        }
 
         .host-image {
                 display: flex;
@@ -867,6 +866,7 @@ footer {
         .article{ 
                 display: flex;
                 flex-direction:column;
+                margin: 0;
         }
 
         #article-title{
@@ -880,25 +880,13 @@ footer {
                 width: 100%;
         }      
 
-        .cards{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                width: auto;
-                height: auto;
-                margin-bottom: 0;
-                margin-top: 0;
-        }            
 
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card,.tall-activity-cards {
-                width: 88%;
+                width: 340px;
                 height: 190px;
-                margin: 20px 20px 0 20px;
                 box-shadow: 5px 5px 5px #F2F2F2;
                 border-radius: 20px;
-                display: flex;
                 flex-direction: column;
-
         }
 
         .card-column { margin-bottom: 0;}
@@ -918,14 +906,17 @@ footer {
 
         /****FOOTER-RESPONSIVE-MOBILE****/
 
+        .information-text{
+                width: auto;
+        }
+
         footer{
                 flex-direction: column;
                 align-items: flex-start;
                 font-size: 18px;
                 height: auto;
-                padding-left: 20px;
                 margin: 45px auto auto auto;
-                padding-left: 0;
+                width: auto;
         }
 }
 
@@ -1061,7 +1052,7 @@ footer {
                 height: auto;
         }
 
-        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
+        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image.tall-activity-cards{
                 height: 80%;
                 width: 100%;
         }
@@ -1071,10 +1062,7 @@ footer {
                 width: 100%;
         }
 
-        .tall-activity-cards{
-                height: 416px;
-                width: 50%;
-        }
+        
 
 
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
