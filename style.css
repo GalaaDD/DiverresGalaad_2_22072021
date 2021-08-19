@@ -340,12 +340,10 @@ nav {
 }
 
 .hebergement {
-        width: 245px;
         height: 200px;
+        border: solid #ffffff 5px;
         background-color: #ffffff;
         border-radius: 20px;
-        flex-direction: column;
-        align-items: center;
         padding-bottom: 5px;
         box-shadow: 1px 1px 1px #808080;
         margin-bottom: 25px;
@@ -355,7 +353,6 @@ nav {
         border-radius: 15px 15px 0 0;
         width:235px;
         height: 110px;
-        margin-top: 5px;
 }
 
 .host-text {
@@ -403,23 +400,22 @@ nav {
 
 .trendy{
         height: 98%;
-        width: 100%;
+        border: solid 5px #ffffff;
         font-size: 14px;
         background-color: #ffffff;
-        border-radius: 15px;
+        border-radius: 20px;
         box-shadow: 1px 1px 1px #808080;
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 30px;
+        justify-content: center:
 }
 
 .trendy-image{
-        height: 98%;
-        width: 130px;
-        border-radius: 20px 0 0 20px;
-        border-top: solid 4px #ffffff;
-        border-bottom: solid 4px #ffffff;
-        border-left: solid 4px #ffffff;
+        height: 98.5%;
+        width: 40%;
+        border-radius: 15px 0 0 15px;
+        
 }   
 
 .card-link{
@@ -748,20 +744,12 @@ footer {
                 box-shadow: 5px 5px 5px #e0e0e0;
         }
 
-        .trendy-cards-titles{
-                margin-bottom: 12px;     
-        }
-
         #trendy-title{
                 font-size: 24px;
                 margin-bottom: 30px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-        }
-
-        #trendy-cards-section{
-                width: 100%;
         }
 
         .fa-chart-line{color: #000000;}
