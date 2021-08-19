@@ -29,9 +29,7 @@ ul {list-style-type:  none;}
         color: black
 }
 
-img{
-        object-fit: cover;
-}
+img{object-fit: cover;}
 
 h3 {    
         margin-bottom: 20px;
@@ -371,10 +369,8 @@ nav {
 }
 
 .main-end-title { 
-        font-size: 14px;
+        font-size: 18px;
         line-height: 40px;
-        margin-left: 20px;
-        margin-bottom: 60px;
         font-weight: bold;
 }
 
@@ -617,60 +613,37 @@ footer {
         }
 
         h3 {    
-        margin-bottom: 20px;
-        font-weight: 520;
-        color: black
+                margin-bottom: 20px;
+                font-weight: 520;
+                color: black
         }
 
 
-        /****NAV-SECTION-RESPONSIVE-600px****/
+        /****NAV-SECTION-RESPONSIVE-MOBILE****/
 
         header{
-                margin-bottom: 35px;
+                width: 100%;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                margin: 0;
+        }
+
+        .logo-container{
+                width: 64%;
         }
 
         nav { 
                 width: 100%;
                 order: 1;
         }
+       
+        .nav-menu{}
 
-        .nav-size{
-                width: 100%;
-                height: auto;
-                flex-direction: row;
+        .nav-bar2{
                 flex-wrap: wrap;
-        }
-
-        .logo-container{
-                width: 165px;
-                margin-left: 20px;
-        }
-
-        .link-size{
-                height: 99px;
         }
 
         .nav-bar1{
-                display: flex;
-                justify-content: space-between;
                 order: 2;
-                flex-wrap: wrap;
-                width:100%;
-                margin-bottom: 0;
-        }
-
-        .nav-menu{
-                display: flex;
-                justify-content: space-around;
-                width: 100%;
-        }
-
-        .nav-bar2{
-                display: flex;
-                justify-content: space-around;
-                order: 1;
         }
 
         .navborder:hover{
@@ -686,13 +659,6 @@ footer {
         .navborder-mobile{
                 border-bottom: 5px solid #f2f2f2;
                 width: 100%;
-        }
-
-        .nav-menu{
-                display: flex;
-                align-items: flex-end;
-                height: 30px;
-                margin: 0;
         }
 
         #page-main-title{
@@ -767,7 +733,7 @@ footer {
                 padding-right: 10px;
         }
 
-        /****ASIDE-SECTION-RESPONSIVE-600px****/
+        /****ASIDE-SECTION-RESPONSIVE-MOBILE****/
         aside {
                 display: flex;
                 width: auto;
@@ -820,7 +786,7 @@ footer {
         }
 
 
-        /****MAIN-SECTION-RESPONSIVE-600px****/
+        /****MAIN-SECTION-RESPONSIVE-MOBILE****/
 
         #maincontentsection {
                 display: flex;
@@ -896,7 +862,7 @@ footer {
         }
 
 
-        /****ARTICLE-SECTION-RESPONSIVE-600px****/
+        /****ARTICLE-SECTION-RESPONSIVE-MOLBILE****/
 
         article{ 
                 display: flex;
