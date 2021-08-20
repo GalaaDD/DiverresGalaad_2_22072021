@@ -580,11 +580,8 @@ footer {
                 margin: 0 auto;
         }
 
-        body{ width: 100%;}
+        body{ width: 375px;}
 
-        .mobile-page-margin{
-                margin: 0 ;
-        }
 
         .secondary-titles {
                 font-size: 18px;
