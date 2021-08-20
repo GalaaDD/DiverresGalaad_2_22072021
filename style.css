@@ -332,7 +332,6 @@ margin-right: 5px;
         height: 145px;
         display: flex;
         flex-wrap: wrap;
-        align-content: space-between;
         justify-content: space-between;
 }
 
@@ -541,11 +540,6 @@ margin-bottom: 14px;}
 
 @media screen and (max-width: 1340px){
 
-
-        .nav-size-button12{
-                margin-left: 35%;
-        }
-
         .tab-size-title-trendy{
                 margin-top: 0;
         }
@@ -576,11 +570,8 @@ margin-bottom: 14px;}
                 margin: 0 auto;
         }
 
-        body{ width: 100%;}
+        body{ width: 375px;}
 
-        .mobile-page-margin{
-                margin: 0 ;
-        }
 
         .secondary-titles {
                 font-size: 18px;
@@ -625,10 +616,19 @@ margin-bottom: 14px;}
 
         .nav-bar2{
                 flex-wrap: wrap;
+               
         }
 
         .nav-bar1{
                 order: 2;
+        }
+
+        .nav-menu {
+                justify-content: space-evenly;
+        }
+
+        #nav-button3{
+                font-size: 18px;
         }
 
         .navborder:hover{
@@ -641,9 +641,14 @@ margin-bottom: 14px;}
                 cursor: pointer;
         }
 
+        .navborder{
+                font-size: 18px;
+        }
+
         .navborder-mobile{
                 border-bottom: 5px solid #f2f2f2;
                 width: 100%;
+               
         }
 
         #page-main-title{
@@ -703,7 +708,6 @@ margin-bottom: 14px;}
         }
         .margfilter{
                 margin-top: 40px;
-                margin-bottom:40px;
         }
 
         #info{
@@ -719,6 +723,7 @@ margin-bottom: 14px;}
         }
 
         /****ASIDE-SECTION-RESPONSIVE-MOBILE****/
+
         .aside-container {
                 width: 90%;
                 background-color: #F2F2F2;
@@ -729,7 +734,7 @@ margin-bottom: 14px;}
 
         .trendy{
                 width:100%;
-                height: 145px;
+                height: 100%;
                 padding: 0;
                 margin-bottom: 10px;
                 border: none;
@@ -761,6 +766,10 @@ margin-bottom: 14px;}
                 margin: 0;
         }
 
+        .aside-main-title{
+                line-height: 12px;
+                align-content: center;
+        }
 
         /****MAIN-SECTION-RESPONSIVE-MOBILE****/
 
@@ -774,8 +783,6 @@ margin-bottom: 14px;}
                 background-color: #ffffff;
                 border-radius: 0;
                 margin-top: 40px;
-                align-content: center;
-                display: flex;
 
         }
 
@@ -788,6 +795,7 @@ margin-bottom: 14px;}
                 font-size: 18px;
                 margin-bottom: 5px;
                 line-height: 10px;
+                margin: 0;
         }
 
         .cards {
@@ -803,7 +811,7 @@ margin-bottom: 14px;}
                 align-items: unset;
                 margin:20px 20px 20px 20px;
                 border: solid #ffffff 5px;
-                box-shadow: 2px 2px 8px #808080;
+                box-shadow: 2px 2px 10px 2px #808080;
                 border-radius: 20px;
                 padding: 0;
         }
@@ -841,13 +849,16 @@ margin-bottom: 14px;}
                 font-size: 25px;
         }
 
+        .main-end-title{
+                margin-left: 20px;
+        }
 
         /****ARTICLE-SECTION-RESPONSIVE-MOBILE****/
 
         .article{ 
-                display: flex;
                 flex-direction:column;
-                margin: 0;
+                justify-content: space-around;
+
         }
 
         #article-title{
@@ -861,13 +872,13 @@ margin-bottom: 14px;}
                 width: 100%;
         }      
 
-
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
                 width: 335px;
                 height: 190px;
-                box-shadow: 5px 5px 5px #F2F2F2;
+                box-shadow: 5px 5px 5px 5px #F2F2F2;
                 border-radius: 20px;
                 flex-direction: column;
+                margin: 0 20px 20px 20px;
         }
 
         .card-column { margin-bottom: 0;}
@@ -885,12 +896,9 @@ margin-bottom: 14px;}
         .tall-activity-cards{
                 height: 190px;
                 width: 335px;
-                margin: 0 20px 12px 20px;
+                margin: 0 20px 20px 20px;
         }
         .article-text{
-                display: flex;
-                margin-top: 20px;
-                margin-bottom: 20px;
                 font-size: 16px;
         }
 
@@ -906,6 +914,7 @@ margin-bottom: 14px;}
                 font-size: 18px;
                 height: auto;
                 margin: 45px auto auto auto;
+                padding-bottom: 50px;
                 width: auto;
         }
 }
@@ -925,12 +934,9 @@ margin-bottom: 14px;}
 
         #maincontentsection {
                 flex-direction: column-reverse;
-                width: 100%
         }
 
         .trendy{
-                flex: none;
-                width: 90%;
                 margin-left: 0;
                 padding: 0;
         }
@@ -958,7 +964,6 @@ margin-bottom: 14px;}
 
         .aside-container {
                 display: flex;
-                width: auto;
                 background-color: #F2F2F2;
                 border-radius: 0;
                 padding: 40px 20px 35px 20px;
@@ -985,7 +990,6 @@ margin-bottom: 14px;}
         }
 
         .trendy-text-card {
-                width: 53.5%;
                 margin: 0;
         }
 
@@ -1003,7 +1007,6 @@ margin-bottom: 14px;}
                 display: flex;
                 flex-direction: row;
                 margin-right: 0;
-                margin-top: 50px;
                 justify-content: space-between;
                 width: 990px;
                 height: auto;
@@ -1013,14 +1016,6 @@ margin-bottom: 14px;}
                 height: 80%;
                 width: 100%;
         }
-
-        .article-text{
-                display: flex;
-                margin-top: 5px;
-                margin-bottom: 4px;
-                font-size: 14px;
-        }
-
 
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
                 width: auto;
