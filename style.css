@@ -341,7 +341,7 @@ margin-right: 5px;
         background-color: #ffffff;
         border-radius: 20px;
         padding-bottom: 5px;
-        box-shadow: 1px 1px 1px #808080;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         margin-bottom: 25px;
 }
 
@@ -399,7 +399,7 @@ margin-right: 5px;
         font-size: 14px;
         background-color: #ffffff;
         border-radius: 20px;
-        box-shadow: 1px 1px 1px #808080;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 30px;
@@ -475,11 +475,11 @@ width: 305px;
 #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{border-radius: 15px 15px 0 0 ;}
 
 .tall-activity-cards{
-height: 446px;
-width: 300px;
-font-size: 14px;
-box-shadow: 1px 1px 1px #808080;
-border-radius: 15px 15px 15px 15px;
+        height: 446px;
+        width: 300px;
+        font-size: 14px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        border-radius: 15px 15px 15px 15px;
 }
 
 #pomegues-card{
@@ -509,8 +509,8 @@ width: 305px;
 
 
 #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-box-shadow: 1px 1px 1px #808080; 
-border-radius: 15px 15px 15px 15px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        border-radius: 15px 15px 15px 15px;
 }
 
 /****FOOTER****/
@@ -1024,3 +1024,7 @@ margin-bottom: 14px;}
         }
 
 }
+
+/*rgb(0 0 0 / 20%)
+<img srcset="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w, images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w" sizes="(max-width: 1024px) 100px, 1920px" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+*/
