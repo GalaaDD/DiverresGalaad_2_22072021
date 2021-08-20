@@ -335,7 +335,6 @@ nav {
         height: 145px;
         display: flex;
         flex-wrap: wrap;
-        align-content: space-between;
         justify-content: space-between;
 }
 
@@ -544,11 +543,6 @@ footer {
 /****RESPONSIVE-1340px****/
 
 @media screen and (max-width: 1340px){
-
-
-        .nav-size-button12{
-                margin-left: 35%;
-        }
 
         .tab-size-title-trendy{
                 margin-top: 0;
