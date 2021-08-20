@@ -795,8 +795,6 @@ footer {
                 background-color: #ffffff;
                 border-radius: 0;
                 margin-top: 40px;
-                align-content: center;
-                display: flex;
 
         }
 
@@ -863,13 +861,16 @@ footer {
                 font-size: 25px;
         }
 
+        .main-end-title{
+                margin-left: 20px;
+        }
 
         /****ARTICLE-SECTION-RESPONSIVE-MOBILE****/
 
         .article{ 
-                display: flex;
                 flex-direction:column;
-                margin: 0;
+                justify-content: space-around;
+
         }
 
         #article-title{
@@ -890,6 +891,7 @@ footer {
                 box-shadow: 5px 5px 5px #F2F2F2;
                 border-radius: 20px;
                 flex-direction: column;
+                margin: 0 20px 20px 20px;
         }
 
         .card-column { margin-bottom: 0;}
@@ -907,7 +909,7 @@ footer {
         .tall-activity-cards{
                 height: 190px;
                 width: 335px;
-                margin: 0 20px 12px 20px;
+                margin: 0 20px 20px 20px;
         }
         .article-text{
                 font-size: 16px;
@@ -944,7 +946,6 @@ footer {
 
         #maincontentsection {
                 flex-direction: column-reverse;
-                width: 100%
         }
 
         .trendy{
