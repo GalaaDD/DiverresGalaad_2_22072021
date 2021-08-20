@@ -344,7 +344,7 @@ nav {
         background-color: #ffffff;
         border-radius: 20px;
         padding-bottom: 5px;
-        box-shadow: 1px 1px 1px #808080;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         margin-bottom: 25px;
 }
 
@@ -402,7 +402,7 @@ nav {
         font-size: 14px;
         background-color: #ffffff;
         border-radius: 20px;
-        box-shadow: 1px 1px 1px #808080;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 30px;
@@ -481,7 +481,7 @@ article{
         height: 446px;
         width: 300px;
         font-size: 14px;
-        box-shadow: 1px 1px 1px #808080;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         border-radius: 15px 15px 15px 15px;
 }
 
@@ -513,7 +513,7 @@ article{
 
 
 #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-        box-shadow: 1px 1px 1px #808080; 
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         border-radius: 15px 15px 15px 15px;
 }
 
@@ -1029,3 +1029,7 @@ footer {
         }
 
 }
+
+/*rgb(0 0 0 / 20%)
+<img srcset="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w, images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w" sizes="(max-width: 1024px) 100px, 1920px" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+*/
