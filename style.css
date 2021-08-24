@@ -201,14 +201,15 @@ border: none;
 /****FILTER-SECTION****/
 
 .filter {
-display: flex;
-justify-content: flex-start;
-align-items: center;
-align-content: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
 }
 
-.filter-buttons-div1, .filter-buttons-div2{
-        display: flex; 
+.filter-buttons-div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 
 }
 
@@ -432,26 +433,23 @@ article{
 }	
 
 #article-cards-section{
-display: flex;
-justify-content: space-between;
-background-color: #ffffff;
-margin-top: 25px;
-border-radius: 20px;
+        display: flex;
+        background-color: #ffffff;
+        margin-top: 25px;
+        border-radius: 20px;
 }
 
 .article-text{
-font-weight: bold;
-font-size: 14px;
-padding-left: 20px;
-display:flex;
-align-content: center;
-align-items: center;
+        font-weight: bold;
+        font-size: 14px;
+        padding-left: 20px;
+       
 }
 
 .tall-image{
-height: 395px;
-width: 300px;
-border-radius: 15px 15px 0 0 ;
+        height: 390px;
+        width: 300px;
+        border-radius: 15px 15px 0 0 ;
 }
 
 #pomegues-image{
@@ -464,8 +462,8 @@ height:110px;
 width: 300px;}
 
 #notre-dame-image{
-height: 145px;
-width: 305px;}
+        height: 140px;
+        width: 305px;}
 
 #longchamp-image{
 height: 155px;
@@ -475,8 +473,7 @@ width: 305px;
 #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{border-radius: 15px 15px 0 0 ;}
 
 .tall-activity-cards{
-        height: 446px;
-        width: 300px;
+        height: 445px;
         font-size: 14px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         border-radius: 15px 15px 15px 15px;
@@ -495,16 +492,16 @@ margin: 0 40px 0 45px;
 }
 
 #notre-dame-card{
-height: 190px;
-width: 305px;
-margin-bottom: 40px;
-margin-left: 40px;
+        height: 195px;
+        width: 305px;
+        margin-bottom: 40px;
+        margin-left: 40px;
 }
 
 #longchamp-card{
-margin-left: 40px;
-height: 215px;
-width: 305px;
+        margin-left: 40px;
+        height: 210px;
+        width: 305px;
 }
 
 
@@ -697,19 +694,29 @@ margin-bottom: 14px;}
                 width: 100%;
         }
 
+
         #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
-                display: flex;
-                align-items: center;
-                font-weight: bold;
-                background-color:#ffffff;
-                font-family: 'Raleway', sans-serif;
                 font-size: 24px;
-                border-radius: 25px;
         }
+
+        #filter-button1{
+                margin-right: 10px;
+        }
+
         .margfilter{
                 margin-top: 40px;
         }
 
+        .margfiltertitle{
+                width: 100%;
+                margin: 0;
+        }
+        
+        .filter-text-icons{
+                margin-bottom: 20px;
+                margin-right: 0;
+        }
+        
         #info{
                 align-items: flex-start;
         }
@@ -926,10 +933,6 @@ margin-bottom: 14px;}
         .mobilefilterwrap{
                 flex-direction: column;
                 align-items: flex-start;
-        }
-
-        .filter-text-icons{
-                margin-bottom: 20px;      
         }
 
         #maincontentsection {
