@@ -437,7 +437,6 @@ article{
 
 #article-cards-section{
         display: flex;
-        justify-content: space-between;
         background-color: #ffffff;
         margin-top: 25px;
         border-radius: 20px;
@@ -447,13 +446,11 @@ article{
         font-weight: bold;
         font-size: 14px;
         padding-left: 20px;
-        display:flex;
-        align-content: center;
-        align-items: center;
+       
 }
 
 .tall-image{
-        height: 395px;
+        height: 390px;
         width: 300px;
         border-radius: 15px 15px 0 0 ;
 }
@@ -468,7 +465,7 @@ article{
         width: 300px;}
 
 #notre-dame-image{
-        height: 145px;
+        height: 140px;
         width: 305px;}
 
 #longchamp-image{
@@ -479,8 +476,7 @@ article{
 #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{border-radius: 15px 15px 0 0 ;}
 
 .tall-activity-cards{
-        height: 446px;
-        width: 300px;
+        height: 445px;
         font-size: 14px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         border-radius: 15px 15px 15px 15px;
@@ -499,7 +495,7 @@ article{
 }
 
 #notre-dame-card{
-        height: 190px;
+        height: 195px;
         width: 305px;
         margin-bottom: 40px;
         margin-left: 40px;
@@ -507,7 +503,7 @@ article{
 
 #longchamp-card{
         margin-left: 40px;
-        height: 215px;
+        height: 210px;
         width: 305px;
 }
 
