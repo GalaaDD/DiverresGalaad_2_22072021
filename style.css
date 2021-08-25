@@ -37,7 +37,7 @@ h3 {    margin-bottom: 20px;
 
 .main-text-size{font-size: 14px;}
 
-em { font-weight: bold;}
+strong { font-weight: bold;}
 
 p {color: black;}
 /****LINKS-CLASSES****/
@@ -73,6 +73,11 @@ margin: 40px auto 40px auto;
 .logo-container{
         display: flex; 
         width: 80%;   
+}
+
+#reservia-logo{
+        height:50px; 
+        width: 120px;
 }
 
 .no-margin{margin: 0;
@@ -114,10 +119,9 @@ font-size: 12px;
 
 /****RESEARCH-SECTION****/
 .iconsize{
-height: 50px;
-width: 50px;
-border: none; 
-border-radius: 10px 0 0 10px;
+        width: 50px;
+        border: none; 
+        border-radius: 15px 0 0 15px;
 }
 
 #localization-button, #localization-logo {
@@ -495,9 +499,8 @@ width: 100%;
 }
 
 .information-text{
-width: 100%;
-margin-top: 14px;
-margin-bottom: 14px;}
+        margin-top: 14px;
+        margin-bottom: 14px;}
 
 /****RESPONSIVE****/
 
@@ -535,11 +538,8 @@ margin-bottom: 14px;}
                 margin: 0 auto;
         }
 
-        body{ width: 375px;}
-
-
         .secondary-titles {
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 520;
                 color: black
         }
@@ -559,30 +559,35 @@ margin-bottom: 14px;}
         /****NAV-SECTION-RESPONSIVE-MOBILE****/
 
         header{
-                width: 100%;
                 flex-wrap: wrap;
                 margin: 0;
         }
 
         .logo-container{
-                width: 64%;
+                padding-left: 14px;
+                width: 70%;
+        }
+
+        #reservia-logo{
+                height: 45px;
+                width: 95px;
         }
 
         nav { 
-                width: 100%;
                 order: 1;
+                border-bottom: 3px solid #f2f2f2;
         }
 
         .nav-bar1{
                 order: 2;
                 flex-wrap: wrap;
-                border-bottom: 5px solid #f2f2f2;
                 font-size: 18px;
         }
 
 
         #nav-button3{
                 font-size: 18px;
+        
         }
 
         .navborder:hover {
@@ -596,14 +601,15 @@ margin-bottom: 14px;}
         }
 
         #input-research{
-                width: 200px;
-                border-top: 1px solid #f2f2f2;
-                border-bottom: 1px solid #f2f2f2;
+                width: 230px;
+                border-left: none;
+                border-right: none;
+
         }
 
         #search-button{
+                margin-left: -3%;
                 width: 50px;
-                height: 50px;
                 border-radius: 15px;
         }
 
@@ -621,9 +627,7 @@ margin-bottom: 14px;}
         }
 
         #searchbar{
-                width: auto;
                 border: none;
-                display: flex;
                 justify-content: center;
                 margin-top: 16px;
         }
@@ -637,6 +641,9 @@ margin-bottom: 14px;}
                 width: 100%;
         }
 
+        .filter{
+                margin-left: 20px;
+        }
 
         #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
                 font-size: 24px;
@@ -644,6 +651,12 @@ margin-bottom: 14px;}
 
         #filter-button1{
                 margin-right: 10px;
+               
+        }
+
+        .text-filter{
+            padding-left: 10px;
+            padding-right: 15px;    
         }
 
         .margfilter{
@@ -658,10 +671,11 @@ margin-bottom: 14px;}
         .filter-text-icons{
                 margin-bottom: 20px;
                 margin-right: 0;
+                margin-left: 0;
         }
         
         #info{
-                align-items: flex-start;
+                margin-left: 20px;
         }
 
         .icon-parent{
@@ -670,13 +684,13 @@ margin-bottom: 14px;}
 
         .fa-info:before{
                 padding-right: 10px;
-                font-size: 16px;
+                font-size: 14px;
         }
 
         /****ASIDE-SECTION-RESPONSIVE-MOBILE****/
 
         .aside-container {
-                width: 90%;
+                width: auto;
                 background-color: #F2F2F2;
                 border-radius: 0;
                 padding: 40px 20px 40px 20px;
@@ -684,12 +698,13 @@ margin-bottom: 14px;}
         }
 
         .trendy{
-                width:100%;
-                height: 100%;
                 padding: 0;
                 margin-bottom: 10px;
                 border: none;
-                box-shadow: 5px 5px 5px #e0e0e0;
+                width: 335px;
+        }
+        .card-link{
+                width:100%;
         }
 
         #trendy-title{
@@ -752,15 +767,13 @@ margin-bottom: 14px;}
         .cards {
                 width: 100%;
                 height: auto;
-                align-content: center;
-                justify-content:space-between;
+                justify-content:center;
         }            
 
         .hebergement {
                 height: 200px;
-                width: 325px;
+                width: 335px;
                 align-items: unset;
-                margin:20px 20px 20px 20px;
                 border: solid #ffffff 5px;
                 box-shadow: 2px 2px 10px 2px #808080;
                 border-radius: 20px;
@@ -790,7 +803,7 @@ margin-bottom: 14px;}
         }
 
         .fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
-                font-size: 25px;
+                font-size: 20px;
         }
 
         .main-end-title{
@@ -799,34 +812,30 @@ margin-bottom: 14px;}
 
         /****ARTICLE-SECTION-RESPONSIVE-MOBILE****/
 
-        .article{ 
-                flex-direction:column;
-                justify-content: space-around;
+        article{ 
+                width: 100%;
 
         }
 
         #article-title{
-                margin-left: 20px;
                 margin-bottom: 0;
         }
 
         #article-cards-section{
-                display: flex;
+                align-items: center;
                 flex-direction: column;
-                width: 100%;
         }      
 
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
                 width: 335px;
                 height: 190px;
-                box-shadow: 5px 5px 5px 5px #F2F2F2;
                 border-radius: 20px;
-                flex-direction: column;
-                margin: 0 20px 20px 20px;
+                margin: 0;
         }
 
-        .card-column { margin-bottom: 0;}
-
+        .card-column{
+                align-items: center;
+        }
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
                 height: 135px;
                 width: 335px;
@@ -838,9 +847,9 @@ margin-bottom: 14px;}
         }
 
         .tall-activity-cards{
-                height: 190px;
                 width: 335px;
-                margin: 0 20px 20px 20px;
+                height: 190px;
+                margin-bottom: 20px;
         }
         .article-text{
                 font-size: 16px;
@@ -881,21 +890,11 @@ margin-bottom: 14px;}
                 padding: 0;
         }
 
-
         #article-cards-section{
-                justify-content: space-between;
-                background-color: #ffffff;
-                margin-top: 25px;
                 border-radius: 20px;
         } 
 
-
         /****ASIDE-SECTION-RESPONSIVE-TAB****/
-
-        .secondary-titles{
-                font-size: 16px;
-
-        }
 
         .main-container{
                 width: auto;
@@ -954,11 +953,10 @@ margin-bottom: 14px;}
                 width: 100%;
         }
 
-        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
+       /* #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
                 width: auto;
                 margin:0 20px 12px 20px;
-                margin-right: 20px;
-        }
+        }*/
 
 }
 
