@@ -122,10 +122,9 @@ nav {width: 400px;}
 /****RESEARCH-SECTION****/
 
 .iconsize{
-        height: 50px;
         width: 50px;
         border: none; 
-        border-radius: 10px 0 0 10px;
+        border-radius: 15px 0 0 15px;
 }
 
 #localization-button, #localization-logo {
@@ -544,11 +543,11 @@ footer {
                 margin: 0 auto;
         }
 
-        body{ width: 375px;}
+        body{ width: 100%;}
 
 
         .secondary-titles {
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 520;
                 color: black
         }
@@ -650,6 +649,9 @@ footer {
                 width: 100%;
         }
 
+        .filter{
+                margin-left: 20px;
+        }
 
         #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
                 font-size: 24px;
@@ -657,6 +659,7 @@ footer {
 
         #filter-button1{
                 margin-right: 10px;
+               
         }
 
         .margfilter{
@@ -674,7 +677,7 @@ footer {
         }
         
         #info{
-                align-items: flex-start;
+                margin-left: 20px;
         }
 
         .icon-parent{
@@ -683,7 +686,7 @@ footer {
 
         .fa-info:before{
                 padding-right: 10px;
-                font-size: 16px;
+                font-size: 14px;
         }
 
         /****ASIDE-SECTION-RESPONSIVE-MOBILE****/
@@ -832,7 +835,6 @@ footer {
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
                 width: 335px;
                 height: 190px;
-                box-shadow: 5px 5px 5px 5px #F2F2F2;
                 border-radius: 20px;
                 flex-direction: column;
                 margin: 0 20px 20px 20px;
@@ -852,7 +854,6 @@ footer {
 
         .tall-activity-cards{
                 height: 190px;
-                width: 335px;
                 margin: 0 20px 20px 20px;
         }
         .article-text{
@@ -905,11 +906,6 @@ footer {
 
 
         /****ASIDE-SECTION-RESPONSIVE-TAB****/
-
-        .secondary-titles{
-                font-size: 16px;
-
-        }
 
         .main-container{
                 width: auto;
@@ -968,11 +964,10 @@ footer {
                 width: 100%;
         }
 
-        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
+       /* #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
                 width: auto;
                 margin:0 20px 12px 20px;
-                margin-right: 20px;
-        }
+        }*/
 
 }
 
