@@ -329,7 +329,6 @@ nav {width: 400px;}
 }
 
 .hebergement {
-        height: 200px;
         border: solid #ffffff 5px;
         background-color: #ffffff;
         border-radius: 20px;
@@ -353,6 +352,7 @@ nav {width: 400px;}
 }
 
 .main-end-title { 
+        color: #000000;
         font-size: 18px;
         line-height: 40px;
         font-weight: bold;
@@ -541,8 +541,9 @@ footer {
         #maincontentsection {
                 flex-direction: column-reverse;
         }
+
         .secondary-titles {
-                font-size: 16px;
+                font-size: 18px;
                 font-weight: 520;
                 color: black
         }
@@ -710,6 +711,7 @@ footer {
                 margin-bottom: 10px;
                 border: none;
                 width: auto;
+                border: solid 5px #ffffff;
         }
         .card-link{
                 width:100%;
@@ -726,12 +728,9 @@ footer {
         .fa-chart-line{color: #000000;}
 
         .trendy-image{
-                height: 135px;
-                width: 130px;
+                height: 98%;
+                width: 125px;
                 border-radius: 15px 0 0 15px;
-                border-top: solid 5px #ffffff;
-                border-bottom: solid 5px #ffffff;
-                border-left: solid 5px #ffffff;
                 margin: 0;
         }
 
@@ -767,7 +766,7 @@ footer {
         }
 
         .main-text-size{
-                font-size: 18px;
+                font-size: 16px;
                 margin-bottom: 5px;
                 line-height: 10px;
                 margin: 0;
@@ -873,7 +872,7 @@ footer {
         footer{
                 flex-direction: column;
                 align-items: flex-start;
-                font-size: 18px;
+                font-size: 16px;
                 height: auto;
                 margin: 45px auto auto auto;
                 padding-bottom: 50px;
@@ -902,9 +901,13 @@ footer {
 
         
                                                 /*FILTER-SECTION-TAB*/
-        #filter-button1{
-                margin-bottom: 12px;       
-        }       
+        .filter-text-icons{
+                margin-right: 8.5px;
+        }                                    
+                                                
+        .margfiltertitle{
+                width: 100%;
+        }                         
 
         .text-filter{
                 padding-left: 10px;
@@ -983,10 +986,6 @@ footer {
                 margin: 0 0 36px 0;
         }
 
-        .tall-activity-cards{
-                margin-right: 45px;
-        }
-
 }
 
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1340px )
@@ -999,15 +998,17 @@ footer {
                 flex-wrap: wrap;
                 border-radius: 20px;
                 justify-content: space-around;
-        }                                         
+        }                                               
 
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
                 width: 100%;
         }
 
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-                width: 100%;
                 margin: 0 0 36px 0;
         }
-       
+
+        .tall-activity-cards{
+                margin: 1px;
+        }
 }
