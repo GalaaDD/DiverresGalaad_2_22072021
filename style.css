@@ -299,7 +299,6 @@ margin-right: 5px;
         flex-wrap: wrap;
         align-content: flex-start;
         width: 80%;
-        height: auto;
         background-color: #F2F2F2;
         border-radius: 25px;
         padding: 30px 40px 0 45px;
@@ -310,6 +309,14 @@ margin-right: 5px;
        line-height: 20px;
        margin-left: 15px;
 }
+
+.host-cards{
+        width: 100%;
+        height: 145px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
 .cards {
         width: 100%;
         height: 145px;
@@ -319,7 +326,6 @@ margin-right: 5px;
 }
 
 .hebergement {
-        height: 200px;
         border: solid #ffffff 5px;
         background-color: #ffffff;
         border-radius: 20px;
@@ -343,6 +349,7 @@ margin-right: 5px;
 }
 
 .main-end-title { 
+        color: #000000;
         font-size: 18px;
         line-height: 40px;
         font-weight: bold;
@@ -504,21 +511,6 @@ width: 100%;
 
 /****RESPONSIVE****/
 
-/****RESPONSIVE-1340px****/
-
-@media screen and (max-width: 1340px){
-
-        .tab-size-title-trendy{
-                margin-top: 0;
-        }
-
-        /****ASIDE-SECTION-RESPONSIVE-1340px****/
-
-
-        /****MAIN-SECTION-RESPONSIVE-1340px****/
-
-
-}
 
 /****RESPONSIVE-MOBILE****/
 
@@ -537,9 +529,17 @@ width: 100%;
                 max-width: 375px;
                 margin: 0 auto;
         }
+        .mobilefilterwrap{
+                flex-direction: column;
+                align-items: flex-start;
+        }
+
+        #maincontentsection {
+                flex-direction: column-reverse;
+        }
 
         .secondary-titles {
-                font-size: 16px;
+                font-size: 18px;
                 font-weight: 520;
                 color: black
         }
@@ -566,6 +566,7 @@ width: 100%;
         .logo-container{
                 padding-left: 14px;
                 width: 70%;
+                margin-bottom: 35px;
         }
 
         #reservia-logo{
@@ -581,12 +582,13 @@ width: 100%;
         .nav-bar1{
                 order: 2;
                 flex-wrap: wrap;
-                font-size: 18px;
+                font-size: 16px;
         }
 
 
         #nav-button3{
                 font-size: 18px;
+                margin-bottom: 35px;
         
         }
 
@@ -597,7 +599,8 @@ width: 100%;
         }
 
         #page-main-title{
-                margin-top: 0;
+                margin-top: 35px;
+                margin-bottom: 20px;
         }
 
         #input-research{
@@ -661,6 +664,7 @@ width: 100%;
 
         .margfilter{
                 margin-top: 40px;
+                margin-bottom: 35px;
         }
 
         .margfiltertitle{
@@ -669,13 +673,15 @@ width: 100%;
         }
         
         .filter-text-icons{
-                margin-bottom: 20px;
-                margin-right: 0;
-                margin-left: 0;
+                margin: 20px 0 0 0;
         }
         
         #info{
                 margin-left: 20px;
+        }
+
+        #info-text{
+        font-size: 16px;
         }
 
         .icon-parent{
@@ -693,15 +699,15 @@ width: 100%;
                 width: auto;
                 background-color: #F2F2F2;
                 border-radius: 0;
-                padding: 40px 20px 40px 20px;
-                margin:0;
+                padding: 40px 20px 35px 20px;
         }
 
         .trendy{
                 padding: 0;
                 margin-bottom: 10px;
                 border: none;
-                width: 335px;
+                width: auto;
+                border: solid 5px #ffffff;
         }
         .card-link{
                 width:100%;
@@ -718,12 +724,9 @@ width: 100%;
         .fa-chart-line{color: #000000;}
 
         .trendy-image{
-                height: 135px;
-                width: 130px;
+                height: 98%;
+                width: 125px;
                 border-radius: 15px 0 0 15px;
-                border-top: solid 5px #ffffff;
-                border-bottom: solid 5px #ffffff;
-                border-left: solid 5px #ffffff;
                 margin: 0;
         }
 
@@ -733,6 +736,7 @@ width: 100%;
         }
 
         .aside-main-title{
+                margin-bottom: 20px;
                 line-height: 12px;
                 align-content: center;
         }
@@ -758,7 +762,7 @@ width: 100%;
         }
 
         .main-text-size{
-                font-size: 18px;
+                font-size: 16px;
                 margin-bottom: 5px;
                 line-height: 10px;
                 margin: 0;
@@ -772,10 +776,8 @@ width: 100%;
 
         .hebergement {
                 height: 200px;
-                width: 335px;
+                width: auto;
                 align-items: unset;
-                border: solid #ffffff 5px;
-                box-shadow: 2px 2px 10px 2px #808080;
                 border-radius: 20px;
                 padding: 0;
         }
@@ -784,7 +786,7 @@ width: 100%;
                 display: flex;
                 flex-direction: column;
                 border-radius: 15px 15px 0 0;
-                width: 100%;
+                width:325px;
                 height: 115px;
                 margin: 0;
         }
@@ -807,7 +809,7 @@ width: 100%;
         }
 
         .main-end-title{
-                margin-left: 20px;
+              width: 94%;
         }
 
         /****ARTICLE-SECTION-RESPONSIVE-MOBILE****/
@@ -818,19 +820,21 @@ width: 100%;
         }
 
         #article-title{
+                margin-left: 12px;
                 margin-bottom: 0;
         }
 
         #article-cards-section{
                 align-items: center;
                 flex-direction: column;
+                margin: 0;
         }      
 
         #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
                 width: 335px;
                 height: 190px;
                 border-radius: 20px;
-                margin: 0;
+                margin: 20px 0 0 0;
         }
 
         .card-column{
@@ -843,13 +847,13 @@ width: 100%;
 
         .tall-image{ 
                 height: 135px;
-                width: 335px;
+                width: 100%;
         }
 
         .tall-activity-cards{
                 width: 335px;
                 height: 190px;
-                margin-bottom: 20px;
+                margin-top: 20px;
         }
         .article-text{
                 font-size: 16px;
@@ -864,7 +868,7 @@ width: 100%;
         footer{
                 flex-direction: column;
                 align-items: flex-start;
-                font-size: 18px;
+                font-size: 16px;
                 height: auto;
                 margin: 45px auto auto auto;
                 padding-bottom: 50px;
@@ -875,7 +879,13 @@ width: 100%;
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (max-width: 990px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+{
+        #bloc-page {
+                max-width: 900px;
+                margin: 0 auto;
+        }
+
         .mobilefilterwrap{
                 flex-direction: column;
                 align-items: flex-start;
@@ -885,23 +895,25 @@ width: 100%;
                 flex-direction: column-reverse;
         }
 
-        .trendy{
-                margin-left: 0;
-                padding: 0;
-        }
+        
+                                                /*FILTER-SECTION-TAB*/
+        .filter-text-icons{
+                margin-right: 8.5px;
+        }                                    
+                                                
+        .margfiltertitle{
+                width: 100%;
+        }                         
 
-        #article-cards-section{
-                border-radius: 20px;
-        } 
+        .text-filter{
+                padding-left: 10px;
+                padding-right: 15px;    
+            }
 
         /****ASIDE-SECTION-RESPONSIVE-TAB****/
 
-        .main-container{
-                width: auto;
-                flex-direction: row;
-        }
-
         .aside-container {
+                width: auto;
                 background-color: #F2F2F2;
                 border-radius: 0;
                 padding: 40px 20px 35px 20px;
@@ -915,23 +927,28 @@ width: 100%;
                 align-items: center;
         }
 
+        .card-link{
+                width: 75%;
+        }
+
         .fa-chart-line{color: #000000;}
 
-        .trendy-image{
-                height: 135px;
-                width: 130px;
-                border-radius: 15px 0 0 15px;
-                border-top: solid 5px #ffffff;
-                border-bottom: solid 5px #ffffff;
-                border-left: solid 5px #ffffff;
-                margin: 0;
+        .trendy{
+                display:flex;
+                padding: 0;
+                margin-bottom: 10px;
         }
 
         .trendy-text-card {
                 margin: 0;
         }
 
-        .main-container{
+                                                        /*MAIN-SECTION-TAB*/
+                                                                            
+
+        .main-container{        
+                width: auto;
+                padding: 0;         
                 margin: 0;
                 background-color: #ffffff;
         }
@@ -943,23 +960,51 @@ width: 100%;
 
         .cards{
                 flex-direction: row;
+                justify-content: space-around;
                 margin-right: 0;
                 width: 990px;
                 height: auto;
         }
 
+                                                        /*ARTICLE-SECTION-TAB*/
+
+        #article-cards-section{
+                flex-wrap: wrap;
+                border-radius: 20px;
+                justify-content: space-around;
+        }                                               
+
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
-                height: 80%;
                 width: 100%;
         }
 
-       /* #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-                width: auto;
-                margin:0 20px 12px 20px;
-        }*/
+        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
+                margin: 0 0 36px 0;
+        }
 
 }
 
-/*rgb(0 0 0 / 20%)
-<img srcset="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w, images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w" sizes="(max-width: 1024px) 100px, 1920px" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
-*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1340px )
+{
+        #bloc-page{
+                margin: 0 auto;
+        }
+
+        #article-cards-section{
+                flex-wrap: wrap;
+                border-radius: 20px;
+                justify-content: space-around;
+        }                                               
+
+        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
+                width: 100%;
+        }
+
+        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
+                margin: 0 0 36px 0;
+        }
+
+        .tall-activity-cards{
+                margin: 1px;
+        }
+}
