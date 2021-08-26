@@ -541,7 +541,14 @@ footer {
                 max-width: 375px;
                 margin: 0 auto;
         }
+        .mobilefilterwrap{
+                flex-direction: column;
+                align-items: flex-start;
+        }
 
+        #maincontentsection {
+                flex-direction: column-reverse;
+        }
         .secondary-titles {
                 font-size: 16px;
                 font-weight: 520;
@@ -879,7 +886,12 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (max-width: 990px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+{
+        #bloc-page {
+                max-width: 900px;
+        }
+
         .mobilefilterwrap{
                 flex-direction: column;
                 align-items: flex-start;
