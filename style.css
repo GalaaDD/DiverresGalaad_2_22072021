@@ -914,6 +914,10 @@ footer {
                 align-items: center;
         }
 
+        .card-link{
+                width: 75%;
+        }
+
         .fa-chart-line{color: #000000;}
 
         .trendy{
@@ -950,9 +954,6 @@ footer {
         }
 
                                                         /*ARTICLE-SECTION-TAB*/
-        article{
-        
-        }
 
         #article-cards-section{
                 flex-wrap: wrap;
