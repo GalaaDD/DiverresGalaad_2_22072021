@@ -508,21 +508,6 @@ footer {
 
 /****RESPONSIVE****/
 
-/****RESPONSIVE-1340px****/
-
-@media screen and (max-width: 1340px){
-
-        .tab-size-title-trendy{
-                margin-top: 0;
-        }
-
-        /****ASIDE-SECTION-RESPONSIVE-1340px****/
-
-
-        /****MAIN-SECTION-RESPONSIVE-1340px****/
-
-
-}
 
 /****RESPONSIVE-MOBILE****/
 
@@ -901,23 +886,21 @@ footer {
                 flex-direction: column-reverse;
         }
 
-        .trendy{
-                margin-left: 0;
-                padding: 0;
-        }
+        
+                                                /*FILTER-SECTION-TAB*/
+        #filter-button1{
+                margin-bottom: 12px;       
+        }       
 
-        #article-cards-section{
-                border-radius: 20px;
-        } 
+        .text-filter{
+                padding-left: 10px;
+                padding-right: 15px;    
+            }
 
         /****ASIDE-SECTION-RESPONSIVE-TAB****/
 
-        .main-container{
-                width: auto;
-                flex-direction: row;
-        }
-
         .aside-container {
+                width: auto;
                 background-color: #F2F2F2;
                 border-radius: 0;
                 padding: 40px 20px 35px 20px;
@@ -933,21 +916,22 @@ footer {
 
         .fa-chart-line{color: #000000;}
 
-        .trendy-image{
-                height: 135px;
-                width: 130px;
-                border-radius: 15px 0 0 15px;
-                border-top: solid 5px #ffffff;
-                border-bottom: solid 5px #ffffff;
-                border-left: solid 5px #ffffff;
-                margin: 0;
+        .trendy{
+                display:flex;
+                padding: 0;
+                margin-bottom: 10px;
         }
 
         .trendy-text-card {
                 margin: 0;
         }
 
-        .main-container{
+                                                        /*MAIN-SECTION-TAB*/
+                                                                            
+
+        .main-container{        
+                width: auto;
+                padding: 0;         
                 margin: 0;
                 background-color: #ffffff;
         }
@@ -959,20 +943,34 @@ footer {
 
         .cards{
                 flex-direction: row;
+                justify-content: space-around;
                 margin-right: 0;
                 width: 990px;
                 height: auto;
         }
 
+                                                        /*ARTICLE-SECTION-TAB*/
+        article{
+        
+        }
+
+        #article-cards-section{
+                flex-wrap: wrap;
+                border-radius: 20px;
+                justify-content: space-around;
+        }                                               
+
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
-                height: 80%;
                 width: 100%;
         }
 
-       /* #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-                width: auto;
-                margin:0 20px 12px 20px;
-        }*/
+        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
+                margin: 0 0 36px 0;
+        }
+
+        .tall-activity-cards{
+                margin-right: 45px;
+        }
 
 }
 
