@@ -875,6 +875,7 @@ footer {
 {
         #bloc-page {
                 max-width: 900px;
+                margin: 0 auto;
         }
 
         .mobilefilterwrap{
@@ -975,6 +976,25 @@ footer {
 
 }
 
-/*rgb(0 0 0 / 20%)
-<img srcset="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 702w, images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1404w" sizes="(max-width: 1024px) 100px, 1920px" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
-*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1340px )
+{
+        #bloc-page{
+                margin: 0 auto;
+        }
+
+        #article-cards-section{
+                flex-wrap: wrap;
+                border-radius: 20px;
+                justify-content: space-around;
+        }                                               
+
+        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
+                width: 100%;
+        }
+
+        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
+                width: 100%;
+                margin: 0 0 36px 0;
+        }
+       
+}
