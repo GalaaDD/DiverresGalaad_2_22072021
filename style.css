@@ -252,10 +252,10 @@ margin-right: 20px;
 }
 
 .text-filter{
-font-size: 16px;
-padding-left: 20px;
-padding-right: 20px;
-border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        padding-left: 14px;
+        padding-right: 20px;
+        border-radius: 0 25px 25px 0;
 }
 
 #info{
