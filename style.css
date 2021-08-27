@@ -305,7 +305,7 @@ nav {width: 400px;}
         background-color: #F2F2F2;
         border-radius: 25px;
         padding: 30px 40px 0 45px;
-        margin-right: 40px;
+        margin-right: 3%;
 }
 
 #main-title{
@@ -956,51 +956,135 @@ footer {
                 margin: 0;
         }
 
-                                                        /*MAIN-SECTION-TAB*/
-                                                                            
+                                                        /******MAIN-SECTION-TAB******/
 
-        .main-container{        
-                width: auto;
-                padding: 0;         
-                margin: 0;
+        #maincontentsection {
+                width: 100%;
+        }
+
+        .main-container {
+                width: 100%;
+                padding: 0;
                 background-color: #ffffff;
+                border-radius: 0;
+                margin-top: 40px;
+
+        }
+
+        .main-title{
+                width: 100%;
+                margin-right: 0;
+
+        }
+
+        .main-text-size{
+                font-size: 16px;
+                margin-bottom: 5px;
+                line-height: 10px;
+                margin: 0;
+        }
+
+        .cards {
+                height: auto;
+                justify-content:center;
+                align-items: flex-start;
+                align-content: start;
+        }            
+
+        .hebergement {
+                height: 400px;
+                width: 94%;
+                align-items: unset;
+                border-radius: 20px;
+                padding: 0;
+        }
+
+        .host-image {
+                display: flex;
+                flex-direction: column;
+                border-radius: 15px 15px 0 0;
+                width:100%;
+                height: 300px;
+                margin: 0;
+        }
+
+        .host-text {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                width: 100%;
+                height: 80px;
+        }
+
+        .stars-icons-main{
+                margin: 10px 0 10px 0;
+
+        }
+
+        .fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
+                font-size: 20px;
         }
 
         .main-end-title{
-                align-content: flex-end;
-                width: 100%;
+              width: 94%;
         }
-
-        .cards{
-                flex-direction: row;
-                justify-content: space-around;
-                margin-right: 0;
-                width: 990px;
-                height: auto;
-        }
-
                                                         /*ARTICLE-SECTION-TAB*/
 
-        #article-cards-section{
-                flex-wrap: wrap;
-                border-radius: 20px;
-                justify-content: space-around;
-        }                                               
+         /****ARTICLE-SECTION-RESPONSIVE-MOBILE****/
 
+         article{ 
+                width: 100%;
+
+        }
+
+        #article-title{
+                margin-left: 12px;
+                margin-bottom: 0;
+        }
+
+        #article-cards-section{
+                width: 100%;
+                align-items: center;
+                flex-direction: column;
+                margin: 0;
+        }      
+
+        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card {
+                width: 95%;
+                height: 400px;
+                border-radius: 20px;
+                margin: 20px 0 0 0;
+        }
+
+        .card-column{
+                width: 100%;
+                align-items: center;
+        }
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
+                width: 100%;
+                height: 300px;
+        }
+
+        .tall-image{ 
+                height: 300px;
                 width: 100%;
         }
 
-        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-                margin: 0 0 36px 0;
+        .tall-activity-cards{
+                width: 95%;
+                height: 300px;
+                margin-top: 20px;
+                margin-bottom: 60px;
         }
-
-}
+        .article-text{
+                font-size: 16px;
+        }
 
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1340px )
 {
         #bloc-page{
                 margin: 0 auto;
+                max-width: 1280px;
         }
 
         #article-cards-section{
@@ -1017,7 +1101,4 @@ footer {
                 margin: 0 0 36px 0;
         }
 
-        .tall-activity-cards{
-                margin: 1px;
-        }
 }
