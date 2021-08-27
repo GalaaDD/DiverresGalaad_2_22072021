@@ -376,6 +376,7 @@ nav {width: 400px;}
         align-items: center;
         justify-content: space-between;
         line-height: 40px;
+        width:100%;
 }
 
 
@@ -422,7 +423,6 @@ article{
 
 #article-cards-section{
         display: flex;
-        flex-wrap: wrap;
         background-color: #ffffff;
         margin-top: 25px;
 }
@@ -436,26 +436,26 @@ article{
 
 .tall-image{
         height: 390px;
-        width: 300px;
+        width: 100%;
         border-radius: 15px 15px 0 0 ;
 }
 
 #pomegues-image{
         height: 185px;
-        width: 300px;
+        width: 100%;
 }
 
 #frioul-image{
         height:110px;
-        width: 300px;}
+        width: 100%;}
 
 #notre-dame-image{
         height: 140px;
-        width: 305px;}
+        width: 100%;}
 
 #longchamp-image{
         height: 155px;
-        width: 305px;
+        width: 100%;
 }
 
 #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{border-radius: 15px 15px 0 0 ;}
