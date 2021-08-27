@@ -495,7 +495,8 @@ article{
 .card-column{ 
         display: flex; 
         flex-direction: column;
-        flex-wrap: wrap;}
+        flex-wrap: wrap;
+}
 
 #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
