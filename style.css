@@ -361,7 +361,7 @@ nav {width: 400px;}
 /****ASIDE*****/
 
 .aside-container {
-        width: 30%;
+        width: 40%;
         display: flex;
         align-content: space-between;
         flex-direction: column;
@@ -387,6 +387,7 @@ nav {width: 400px;}
 
 .trendy{
         border: solid 5px #ffffff;
+        min-width: 302px;
         background-color: #ffffff;
         border-radius: 20px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -511,7 +512,7 @@ footer {
 }
 
 .information_section{
-        width: %;
+        width: 100%;
 }
 
 .information-text{
