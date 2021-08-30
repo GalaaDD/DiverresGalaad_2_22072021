@@ -322,7 +322,6 @@ nav {width: 400px;}
 }
 .cards {
         width: 100%;
-        height: 145px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -387,7 +386,6 @@ nav {width: 400px;}
 }
 
 .trendy{
-        height: 98%;
         border: solid 5px #ffffff;
         background-color: #ffffff;
         border-radius: 20px;
@@ -513,7 +511,7 @@ footer {
 }
 
 .information_section{
-        width: 100%;
+        width: %;
 }
 
 .information-text{
@@ -525,7 +523,7 @@ footer {
 
 /****RESPONSIVE-MOBILE****/
 
-@media only screen and (min-device-width : 51px) and (max-device-width : 599px) {
+@media only screen and (min-device-width : 50px) and (max-device-width : 599px) {
         /*
         idOuClass { color: blue; }
 
@@ -547,6 +545,13 @@ footer {
 
         #maincontentsection {
                 flex-direction: column-reverse;
+        }
+        #page-main-title{
+                font-size: 20px;
+        }
+
+        #top-page-text{
+                font-size: 14px;
         }
 
         .secondary-titles {
@@ -613,11 +618,9 @@ footer {
         
         }
 
-        /*.navborder:hover {
+        .navborder:hover {
                 border-top: none ;
-                border-bottom: 4px solid #0065FC;
-                cursor: pointer;
-        }*/
+        }
 
         #page-main-title{
                 margin-top: 35px;
@@ -680,7 +683,8 @@ footer {
 
         .text-filter{
             padding-left: 10px;
-            padding-right: 15px;    
+            padding-right: 15px;
+            font-size: 14px;    
         }
 
         .margfilter{
@@ -702,7 +706,7 @@ footer {
         }
 
         #info-text{
-        font-size: 16px;
+        font-size: 14px;
         }
 
         .icon-parent{
@@ -714,6 +718,9 @@ footer {
                 font-size: 14px;
         }
 
+        .fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
+                font-size: 20px;
+        }
         /****ASIDE-SECTION-RESPONSIVE-MOBILE****/
 
         .aside-container {
@@ -822,11 +829,8 @@ footer {
 
         }
 
-        .fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
-                font-size: 20px;
-        }
-
         .main-end-title{
+                font-size: 16px;
               width: 90%;
         }
 
@@ -899,7 +903,7 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-device-width : 600px) and (max-device-width : 1024px)
+@media only screen and (min-device-width : 600px) and (max-device-width : 1023px)
 {
         #bloc-page {
                 max-width: 900px;
@@ -1081,26 +1085,5 @@ footer {
         }
         .article-text{
                 font-size: 16px;
-        }
-}
-
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1340px ){
-        #bloc-page{
-                margin: 0 auto;
-                max-width: 1280px;
-        }
-
-        #article-cards-section{
-                flex-wrap: wrap;
-                border-radius: 20px;
-                justify-content: space-around;
-        }                                               
-
-        #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
-                width: 100%;
-        }
-
-        #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
-                margin: 0 0 36px 0;
         }
 }
