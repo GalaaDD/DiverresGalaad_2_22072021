@@ -390,6 +390,7 @@ nav {width: 400px;}
         border-radius: 20px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         margin-bottom: 30px;
+        min-width: unset;
 }
 
 .trendy-image{
@@ -731,6 +732,7 @@ footer {
                 border: none;
                 width: auto;
                 border: solid 5px #ffffff;
+                min-width: unset;
         }
         .card-link{
                 width:100%;
