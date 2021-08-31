@@ -45,7 +45,7 @@ p {color: black;}
 
 a {     
         text-decoration: none;
-        font-size: 14px;}
+}
 
 a:visited{ color: #000000;}    
 
@@ -74,18 +74,18 @@ header{
 
 .logo-container{
         display: flex; 
-        width: 63.1%;   
+        width: 63.3%;   
 }
 
 #reservia-logo{
         height:45px; 
-        width: 97px;
+        width: 95px;
 }
 
 .no-margin{margin: 0;
 }
 
-nav {width: 410px;}
+nav {width: 400px;}
 
 .nav-bar { 
         font-size: 16px;
@@ -97,6 +97,10 @@ nav {width: 410px;}
 #nav-button3{
         color:#0065FC;
         font-weight: bold;
+}
+
+.navborder{
+        font-size: 18px;
 }
 
 .navborder:hover {
@@ -252,7 +256,7 @@ nav {width: 410px;}
 
 .text-filter{
         font-size: 16px;
-        padding-left: 16px;
+        padding-left: 20px;
         padding-right: 25px;
         border-radius: 0 25px 25px 0;
 }
@@ -264,20 +268,23 @@ nav {width: 410px;}
 }
 
 #info-text{
-font-size: 18px;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 1.5px;
 }
 
 .fa-info{
-color: #0065FC;
+        color: #0065FC;
+       
 }
 
 .fa-info:before{
-        align-content: center;
-        margin-left: 8px;
+        margin-left: 8.5px;     
 }
 
 .icon-parent {
         width: 20px;
+        height: 20px;
         border: 2px solid #f2f2f2;
         border-radius: 25px;
         margin-right: 5px;
@@ -702,16 +709,19 @@ footer {
         }
 
         #info-text{
-        font-size: 14px;
+                font-size: 14px;
+                margin-top: 4px;
         }
 
         .icon-parent{
                 margin-right: 10px;
+                margin-bottom: px;
+                
         }
 
         .fa-info:before{
-                padding-right: 10px;
-                font-size: 14px;
+                font-size: 12px;
+                margin: 8.5px;
         }
 
         .fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
