@@ -78,8 +78,8 @@ header{
 }
 
 #reservia-logo{
-        height:50px; 
-        width: 120px;
+        height:45px; 
+        width: 97px;
 }
 
 .no-margin{margin: 0;
@@ -88,14 +88,10 @@ header{
 nav {width: 410px;}
 
 .nav-bar { 
-        font-size: 14px;
+        font-size: 16px;
         display: flex;
         justify-content: space-evenly;
-}
-
-.navborder{
-        color:#000000;
-        font-size: 15px;
+        padding: 0;
 }
 
 #nav-button3{
@@ -192,9 +188,7 @@ nav {width: 410px;}
 /*flex-start:mobile-responsive*/
 
 .filter {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        display: flex;    
 }
 
 /*mobile-responsive*/
@@ -240,22 +234,26 @@ nav {width: 410px;}
 .filter-text-icons{
         border: 2px solid #e8d9d9;
         border-left: 0;
-        margin: 0 20px 20px 1px;
+        margin: 0 20px 20px 0;
 }
 
 .margfilter{
-margin-top: 30px;
-margin-bottom:40px;
+        margin-top: 30px;
+        margin-bottom:40px;
+}
+.filter-title-size{
+       
+        font-size: 16px;
 }
 
 .margfiltertitle{
-margin-right: 20px;
+        margin-right: 30px;
 }
 
 .text-filter{
         font-size: 16px;
-        padding-left: 14px;
-        padding-right: 20px;
+        padding-left: 16px;
+        padding-right: 25px;
         border-radius: 0 25px 25px 0;
 }
 
@@ -604,21 +602,19 @@ footer {
                 order: 2;
         }
 
-        .nav-bar1{
-                order: 2;
+        .nav-bar{
                 font-size: 16px;
                 padding: 0;
         }
 
-
-        #nav-button3{
-                font-size: 18px;
-                margin-bottom: 35px;
-        
+        .navborder:hover{
+                border-top: none;
         }
 
-        .navborder:hover {
-                border-top: none ;
+        #nav-button3{
+                font-size: 15px;
+                margin-bottom: 35px;
+        
         }
 
         #page-main-title{
