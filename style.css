@@ -15,7 +15,7 @@ body, html {font-family: 'Raleway', sans-serif;}
 ul {list-style-type:  none;}
 
 .secondary-titles {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 520;
         color: black
 }
@@ -54,13 +54,13 @@ a:visited{ color: #000000;}
 
 #page-main-title{
         font-weight: bold;
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 10px;
         margin-bottom: 14px;
 }
 
 #top-page-text{
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 0;
 }
 
@@ -74,7 +74,7 @@ header{
 
 .logo-container{
         display: flex; 
-        width: 80%;   
+        width: 63.1%;   
 }
 
 #reservia-logo{
@@ -85,11 +85,12 @@ header{
 .no-margin{margin: 0;
 }
 
-nav {width: 400px;}
+nav {width: 410px;}
 
 .nav-bar { 
+        font-size: 14px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
 }
 
 .navborder{
@@ -100,8 +101,6 @@ nav {width: 400px;}
 #nav-button3{
         color:#0065FC;
         font-weight: bold;
-        font-size: 15px;
-        list-style-type:  none;
 }
 
 .navborder:hover {
@@ -170,7 +169,7 @@ nav {width: 400px;}
 }
 
 #input-research{
-        font-size: 14px;
+        font-size: 16px;
         background-color: #ffffff;
         height: 50px;
         width: 235px;
@@ -196,6 +195,11 @@ nav {width: 400px;}
         display: flex;
         justify-content: flex-start;
         align-items: center;
+}
+
+#filter-title{
+        font-size: 16px;
+        margin-right: 30px;
 }
 
 /*mobile-responsive*/
@@ -247,10 +251,6 @@ nav {width: 400px;}
 .margfilter{
         margin-top: 30px;
         margin-bottom:40px;
-}
-
-.margfiltertitle{
-        margin-right: 20px;
 }
 
 .text-filter{
@@ -359,7 +359,7 @@ nav {width: 400px;}
 /****ASIDE*****/
 
 .aside-container {
-        width: 40%;
+        width: 26%;
         display: flex;
         align-content: space-between;
         flex-direction: column;
@@ -376,6 +376,9 @@ nav {width: 400px;}
         width:100%;
 }
 
+.aside-secondary-titles{
+        font-size: 14px;
+}
 
 .fa-chart-line{color: #000000;}
 
@@ -385,7 +388,6 @@ nav {width: 400px;}
 
 .trendy{
         border: solid 5px #ffffff;
-        min-width: 302px;
         background-color: #ffffff;
         border-radius: 20px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
