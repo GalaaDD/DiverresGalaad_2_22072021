@@ -15,15 +15,9 @@ body, html {font-family: 'Raleway', sans-serif;}
 ul {list-style-type:  none;}
 
 .secondary-titles {
-<<<<<<< HEAD
-font-size: 14px;
-font-weight: 520;
-color: black
-=======
         font-size: 16px;
         font-weight: 520;
         color: black
->>>>>>> top-page-update
 }
 
 .titles-decoration {
@@ -58,17 +52,6 @@ a:visited{ color: #000000;}
 /****TOP-PAGE-CONTENT****/
 
 #page-main-title{
-<<<<<<< HEAD
-font-weight: bold;
-font-size: 22px;
-margin-top: 10px;
-margin-bottom: 14px;
-}
-
-#top-page-text{
-font-size: 18px;
-margin-top: 0;
-=======
         font-weight: bold;
         font-size: 20px;
         margin-top: 10px;
@@ -78,7 +61,6 @@ margin-top: 0;
 #top-page-text{
         font-size: 16px;
         margin-top: 0;
->>>>>>> top-page-update
 }
 
 header{
@@ -266,11 +248,7 @@ margin-bottom:40px;
 }
 
 .margfiltertitle{
-<<<<<<< HEAD
-margin-right: 20px;
-=======
         margin-right: 30px;
->>>>>>> top-page-update
 }
 
 .text-filter{
@@ -287,13 +265,6 @@ margin-right: 20px;
 }
 
 #info-text{
-<<<<<<< HEAD
-font-size: 18px;
-}
-
-.fa-info{
-color: #0065FC;
-=======
         font-size: 16px;
         color: #000000;
         margin-top: 1.5px;
@@ -302,7 +273,6 @@ color: #0065FC;
 .fa-info{
         color: #0065FC;
        
->>>>>>> top-page-update
 }
 
 .fa-info:before{
