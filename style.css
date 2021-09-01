@@ -450,6 +450,10 @@ article{
         margin-top: 25px;
 }
 
+#article-title{
+        margin: 0;
+}
+
 .article-text{
         font-weight: bold;
         font-size: 16px;
@@ -505,12 +509,12 @@ article{
 #notre-dame-card{
         height: 195px;
         width: 305px;
-        margin-left: 40px;
+        margin-left: 45px;
         margin-bottom: 40px;
 }
 
 #longchamp-card{
-        margin-left: 40px;
+        margin-left: 45px;
         height: 210px;
         width: 305px;
 }
@@ -533,6 +537,10 @@ footer {
         font-size: 14px;
         display: flex;
         background-color: #F2F2F2;
+}
+
+.footer-titles{
+        margin-bottom: 25px;
 }
 
 .information_section{
