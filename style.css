@@ -78,7 +78,7 @@ header{
 
 .logo-container{
         display: flex; 
-        width: 63.3%;   
+        width: 72%;   
 }
 
 #reservia-logo{
@@ -94,17 +94,19 @@ nav {width: 400px;}
 .nav-bar { 
         font-size: 16px;
         display: flex;
-        justify-content: space-evenly;
         padding: 0;
 }
 
 #nav-button3{
         color:#0065FC;
         font-weight: bold;
+        margin-right: 25px;
 }
 
 .navborder{
         font-size: 18px;
+        padding-left: 34px;
+        padding-right: 33px;
 }
 
 .navborder:hover {
