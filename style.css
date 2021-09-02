@@ -112,10 +112,6 @@ nav {
        
 }
 
-#nav-button3{
-
-}
-
 .navborder:hover{
         color: #0065FC;
 }
@@ -634,6 +630,7 @@ footer {
         header nav ul li{
                 border-top: none;
                 border-bottom: solid 3px #f2f2f2;
+                width: 100%;
                 padding: 10px;
                 text-align: center;
         }
@@ -653,7 +650,7 @@ footer {
         }
 
         .nav-bar{
-                justify-content:unset;
+                justify-content: unset;
         }
 
         .navborder:hover{
