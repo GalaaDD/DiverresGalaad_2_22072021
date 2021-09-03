@@ -10,14 +10,15 @@
 
 .desktop-none {display: none;}
 
-body, html {font-family: 'Raleway', sans-serif;}
+body, html {
+        font-family: 'Raleway', sans-serif;
+        margin:0;
+}
 
 ul {list-style-type:  none;}
 
 .secondary-titles {
         font-size: 16px;
-        font-weight: 520;
-        color: black
 }
 
 .titles-decoration {
@@ -213,7 +214,6 @@ font-weight: bold;
 
 /*mobile-responsive*/
 .filter-buttons-div{
-        flex-direction: row;
         flex-wrap: wrap;
 
 }
@@ -326,7 +326,7 @@ margin-bottom:40px;
 }
 
 #main-title{
-       line-height: 20px;
+       line-height: 25px;
        margin-left: 15px;
 }
 
@@ -385,9 +385,6 @@ margin-bottom:40px;
 .aside-container {
         width: 35%;
         min-width: 300px;
-        display: flex;
-        align-content: space-between;
-        flex-direction: column;
         background-color: #F2F2F2;
         border-radius: 25px;
         padding: 20px 40px 0px 35px;
@@ -411,7 +408,6 @@ margin-bottom:40px;
 .aside-text{
         margin-top: 0;
         margin-bottom: 28%;
-        font-size: 14px;
 }
 
 .fa-chart-line{color: #000000;}
@@ -451,22 +447,12 @@ margin-bottom:40px;
 
 /****ARTICLE****/
 
-article{
-        background-color: #ffffff;
-        margin-top: 60px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-}	
+article{margin-top: 60px;}	
 
 #article-cards-section{
         display: flex;
         background-color: #ffffff;
         margin-top: 25px;
-}
-
-#article-title{
-        margin: 0;
 }
 
 .article-text{
@@ -480,6 +466,10 @@ article{
         height: 390px;
         width: 100%;
         border-radius: 15px 15px 0 0 ;
+}
+
+.card-column{
+        flex-wrap: wrap;
 }
 
 #pomegues-image{
@@ -503,7 +493,6 @@ article{
 #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{border-radius: 15px 15px 0 0 ;}
 
 .tall-activity-cards{
-        font-size: 14px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
         border-radius: 15px 15px 15px 15px;
         min-width: 130px;
@@ -516,14 +505,12 @@ margin:0 45px 40px 40px;
 }
 
 #frioul-card{
-height: 165px;
-width: 300px;
-margin: 0 40px 0 45px;
+        height: 165px;
+        margin: 0 40px 0 45px;
 }
 
 #notre-dame-card{
         height: 195px;
-        width: 305px;
         margin-left: 45px;
         margin-bottom: 40px;
 }
@@ -532,10 +519,6 @@ margin: 0 40px 0 45px;
         margin-left: 45px;
         height: 210px;
         width: 305px;
-}
-
-.card-column{ 
-        flex-wrap: wrap;
 }
 
 #pomegues-card,#frioul-card,#notre-dame-card,#longchamp-card{
@@ -599,21 +582,8 @@ footer {
                 margin-bottom: 35px;
         }
 
-        .secondary-titles {
-                font-size: 14px;
-                font-weight: 520;
-                color: black
-        }
-
-        p {
-                color: black;
-                font-size: 12px;    
-        }
-
         h3 {    
                 margin-bottom: 10px;
-                font-weight: 520;
-                color: black
         }
 
 
@@ -639,7 +609,7 @@ footer {
 
         .logo-container{
                 padding-left: 20px;
-                width: 69%;
+                width: 70%;
         }
 
         nav { 
@@ -660,10 +630,10 @@ footer {
 
         #nav-button3{
                 font-size: 14px;
+                margin:0;
         }
 
         #page-main-title{
-                margin-top: 0;
                 margin-bottom: 20px;
         }
 
@@ -675,7 +645,6 @@ footer {
         }
 
         #search-button{
-                margin-left: -3%;
                 width: 50px;
                 border-radius: 15px;
         }
@@ -779,13 +748,13 @@ footer {
         }
 
         .trendy{
-                padding: 0;
                 margin-bottom: 10px;
                 border: none;
                 width: auto;
                 border: solid 5px #ffffff;
                 min-width: unset;
         }
+        
         .card-link{
                 height: 145px;
                 width:100%;
@@ -816,7 +785,6 @@ footer {
                 min-width: unset;
                 margin-bottom: 20px;
                 line-height: 10px;
-                align-content: center;
         }
 
         /****MAIN-SECTION-RESPONSIVE-MOBILE****/
@@ -829,33 +797,23 @@ footer {
                 width: 100%;
                 padding: 0;
                 background-color: #ffffff;
-                border-radius: 0;
                 margin-top: 24.4px;
-
-        }
-
-        #main-title{
-                margin-right: 0;
-
+                align-content: unset;
         }
 
         .main-text-size{
-                font-size: 12px;
                 margin-bottom: 5px;
                 line-height: 10px;
                 margin: 0;
         }
 
         .cards {
-                width: 100%;
-                height: auto;
                 justify-content:center;
         }            
 
         .hebergement {
                 width: 87%;
                 margin-bottom: 12px;
-                align-items: unset;
                 border-radius: 20px;
                 padding: 0;
         }
@@ -863,9 +821,7 @@ footer {
         .host-image {
                 display: flex;
                 flex-direction: column;
-                border-radius: 15px 15px 0 0;
                 width:100%;
-                margin: 0;
         }
 
         .host-text {
@@ -915,8 +871,9 @@ footer {
         .card-column{
                 width: 100%;
                 display: flex;
-               justify-content: center;
+                justify-content: center;
         }
+
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
                 height: 135px;
                 width: 100%;
@@ -937,6 +894,7 @@ footer {
         }
 
         /****FOOTER-RESPONSIVE-MOBILE****/
+
         .information_section{
                 width: auto;
         }
@@ -1045,11 +1003,6 @@ footer {
                 padding: 0;
                 margin-bottom: 20px;
         }
-
-        .trendy-text-card {
-                margin: 0;
-        }
-
                                                         /******MAIN-SECTION-TAB******/
 
         #maincontentsection {
@@ -1078,7 +1031,6 @@ footer {
         }
 
         .cards {
-                height: auto;
                 justify-content:center;
                 align-items: flex-start;
                 align-content: start;
@@ -1188,7 +1140,8 @@ footer {
         /******FOOTER-SECTION-TAB******/
 
         footer{
-                padding:45px 0;
+                justify-content: space-evenly;
+                padding: 45px 0;
         }
 
         .information_section{
