@@ -19,17 +19,18 @@ ul {list-style-type:  none;}
 
 .secondary-titles {
         font-size: 16px;
+        color: #000000
 }
 
 .titles-decoration {
         font-size: 20px;
-        font-weight: 520;
-        color: black
+        font-weight: 600;
+        color: #000000;
 }
 
 img{object-fit: cover;}
 
-h3 {    font-weight: 520;
+h3 {    font-weight: 600;
         color: black
 }
 
@@ -47,6 +48,7 @@ p {
 
 a {     
         text-decoration: none;
+        color: #000000;
 }  
 
 
@@ -179,7 +181,6 @@ header nav ul li:hover {
         background-color: #ffffff;
         height: 50px;
         width: 235px;
-        border: solid 0 1px 1px 1px#F2F2F2;
         padding-left: 20px;
 }
 
@@ -192,7 +193,7 @@ header nav ul li:hover {
 }
 
 #search-button{
-        font-weight: 585;
+        font-weight: 500;
         font-size: 16px;
         color:#ffffff;
         cursor: pointer;
@@ -343,10 +344,9 @@ header nav ul li:hover {
 }
 
 .hebergement {
-        border: solid #ffffff 5px;
         background-color: #ffffff;
         border-radius: 20px;
-        padding-bottom: 5px;
+        padding: 5px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
         margin-bottom: 25px;
 }
@@ -415,7 +415,6 @@ header nav ul li:hover {
 }
 
 .trendy{
-        border: solid 5px #ffffff;
         background-color: #ffffff;
         border-radius: 20px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
@@ -425,9 +424,10 @@ header nav ul li:hover {
 }
 
 .trendy-image{
-        height: 98.5%;
+        padding: 5px;
+        height: 93%;
         width: 40%;
-        border-radius: 15px 0 0 15px;
+        border-radius: 20px 0 0 20px;
         
 }   
 
@@ -552,17 +552,17 @@ footer {
 
 /******RESPONSIVE-DESKTOP******/
 
-@media only screen and (min-device-width: 500px) and (max-device-width : 1245px) {
+@media (min-width:500px) and (max-width:1250px){
         #bloc-page {
                 max-width: 1340px;
-                margin: 0 auto;
+                margin: 0 10px;
         }
 
-        #pomegues-card{
+        #pomegues-card {
                 margin: 0 5px 40px 5px;
         }
 
-        #frioul-card{
+        #frioul-card {
                 margin:0 5px 0 5px;
         }
 
@@ -570,7 +570,7 @@ footer {
                 margin-left: 5px;
         }
 
-        #longchamp-card{
+        #longchamp-card {
                 margin-left: 5px;
         }
 
@@ -580,21 +580,12 @@ footer {
 }
 
 /****RESPONSIVE-MOBILE****/
-
-@media only screen and (min-device-width : 50px) and (max-device-width : 599px) {
-        /*
-        idOuClass { color: blue; }
-
-        idOuClass { 
-        font-size: 18px;
-        font-weight: 520;
-        color: black
-        }
-        */
-
+@media only screen and (min-width : 50px) and (max-width : 599px) {
         #bloc-page {
                 max-width: 375px;
+                margin: 0;
         }
+
         .mobilefilterwrap{
                 flex-direction: column;
                 align-items: flex-start;
@@ -752,8 +743,6 @@ footer {
 
         .icon-parent{
                 margin-right: 10px;
-                margin-bottom: px;
-                
         }
 
         .fa-info:before{
@@ -778,7 +767,6 @@ footer {
                 margin-bottom: 10px;
                 border: none;
                 width: auto;
-                border: solid 5px #ffffff;
                 min-width: unset;
         }
         
@@ -842,7 +830,6 @@ footer {
                 width: 87%;
                 margin-bottom: 12px;
                 border-radius: 20px;
-                padding: 0;
         }
 
         .host-image {
@@ -956,8 +943,7 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-device-width : 600px) and (max-device-width : 1025px)
-{
+@media only screen and (min-width : 600px) and (max-width : 1025px){
         #bloc-page {
                 max-width: 900px;
         }
@@ -1049,7 +1035,7 @@ footer {
         }
 
         .trendy-image{
-                height: 100%;
+                height: 94%;
         }
                                                         /******MAIN-SECTION-TAB******/
 
@@ -1088,7 +1074,7 @@ footer {
                 width: 94%;
                 align-items: unset;
                 border-radius: 20px;
-                padding: 0;
+                padding: 5px;
         }
 
         .host-image {
