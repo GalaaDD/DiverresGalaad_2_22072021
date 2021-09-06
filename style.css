@@ -22,9 +22,9 @@ ul {list-style-type:  none;}
 }
 
 .titles-decoration {
-font-size: 20px;
-font-weight: 520;
-color: black
+        font-size: 20px;
+        font-weight: 520;
+        color: black
 }
 
 img{object-fit: cover;}
@@ -51,8 +51,6 @@ a {
         color: #000000;
 }
 
-a:visited{ color: #000000;}    
-
 
 /****TOP-PAGE-CONTENT****/
 
@@ -76,6 +74,7 @@ header{
 }
 
 /****NAVIGATION-MENU****/
+
 .logo-container{
         display: flex; 
         width: 69%;   
@@ -127,16 +126,17 @@ header nav ul li:hover {
 }       
 
 .fa-star-grey {
-color:#e0e0e0;
-font-size: 12px;
+        color:#e0e0e0;
+        font-size: 12px;
 }
 
 .fa-star-blue {
-color: #0065FC;
-font-size: 12px;
+        color: #0065FC;
+        font-size: 12px;
 }
 
 /****RESEARCH-SECTION****/
+
 .iconsize{
         width: 50px;
         border: none; 
@@ -144,19 +144,19 @@ font-size: 12px;
 }
 
 #localization-button, #localization-logo {
-font-size: 20px;
-height: 50px;
-width: 52px;
-border: none;
-border-radius: 50px 0 0 50px;
+        font-size: 20px;
+        height: 50px;
+        width: 52px;
+        border: none;
+        border-radius: 50px 0 0 50px;
 }
 
 .fa-location-dot{
-color:#000000 
+        color:#000000 
 }
 
 .fa-location-dot:hover{
-cursor: pointer;  
+        cursor: pointer;  
 }
 
 #searchbar {
@@ -168,11 +168,11 @@ cursor: pointer;
 }
 
 .research{
-height: 50px;
-width: 230px;
-font-size: 18px;
-color: black;
-font-weight: bold;
+        height: 50px;
+        width: 230px;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
 }
 
 #input-research::placeholder {
@@ -258,8 +258,8 @@ font-weight: bold;
 }
 
 .margfilter{
-margin-top: 30px;
-margin-bottom:40px;
+        margin-top: 30px;
+        margin-bottom:40px;
 }
 .filter-title-size{
        
@@ -499,9 +499,9 @@ article{margin-top: 60px;}
 }
 
 #pomegues-card{
-height:  240px;
-width: 300px;
-margin:0 45px 40px 40px;
+        height:  240px;
+        width: 300px;
+        margin:0 45px 40px 40px;
 }
 
 #frioul-card{
