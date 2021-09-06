@@ -494,6 +494,7 @@ article{margin-top: 60px;}
         box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
         border-radius: 15px 15px 15px 15px;
         min-width: 130px;
+        max-height: 445px;
 }
 
 #pomegues-card{
@@ -549,6 +550,34 @@ footer {
 
 /****RESPONSIVE****/
 
+/******RESPONSIVE-DESKTOP******/
+
+@media only screen and (min-device-width: 500px) and (max-device-width : 1245px) {
+        #bloc-page {
+                max-width: 1340px;
+                margin: 0 auto;
+        }
+
+        #pomegues-card{
+                margin: 0 5px 40px 5px;
+        }
+
+        #frioul-card{
+                margin:0 5px 0 5px;
+        }
+
+        #notre-dame-card {
+                margin-left: 5px;
+        }
+
+        #longchamp-card{
+                margin-left: 5px;
+        }
+
+        .article-text{
+                font-size: 14px;
+        }
+}
 
 /****RESPONSIVE-MOBILE****/
 
@@ -931,7 +960,6 @@ footer {
 {
         #bloc-page {
                 max-width: 900px;
-                margin: 0 auto;
         }
 
         .mobilefilterwrap{
@@ -950,6 +978,14 @@ footer {
         .secondary-titles{
                 font-size: 18px;
         }
+
+        header{
+                margin-left: 10px;
+        }
+
+        #research-section{
+                margin-left: 20px;
+        }
                                                 /*FILTER-SECTION-TAB*/
         .filter-text-icons{
                 margin-right: 8.5px;
@@ -967,11 +1003,15 @@ footer {
         /****ASIDE-SECTION-RESPONSIVE-TAB****/
 
         .aside-container {
+                display: flex;
+                justify-content: center;
+                flex-flow: row wrap;
                 width: auto;
                 background-color: #F2F2F2;
                 border-radius: 0;
-                padding: 20px 20px 35px 20px;
+                padding: 20px 20px 17px 20px;
                 margin-left: 0;
+
         }
 
         .aside-main-title{
@@ -999,7 +1039,17 @@ footer {
         .trendy{
                 display:flex;
                 padding: 0;
-                margin-bottom: 20px;
+                width: 46%;
+                margin-left: 15px;
+        }
+
+        #trendy-card-3-tab{
+                width: 88%;
+                margin-left: 0;
+        }
+
+        .trendy-image{
+                height: 100%;
         }
                                                         /******MAIN-SECTION-TAB******/
 
