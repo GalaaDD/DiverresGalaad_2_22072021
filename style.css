@@ -41,17 +41,13 @@ strong { font-weight: bold;}
 
 p {     
         font-size: 14px;
-        color: black;
 }
 
 /****LINKS-CLASSES****/
 
 a {     
         text-decoration: none;
-        color: #000000;
-}
-
-a:visited{ color: #000000;}    
+}  
 
 
 /****TOP-PAGE-CONTENT****/
@@ -110,11 +106,10 @@ nav {
 .navborder{
         font-size: 18px;
         align-content: center;
-       
 }
 
-.navborder:hover{
-        color: #0065FC;
+.navborder:hover {
+       
 }
 
 header nav ul li{
@@ -124,6 +119,7 @@ header nav ul li{
 
 header nav ul li:hover {
         border-top: solid 2px #0065FC;
+        color: #0065FC;
         
 }       
 
@@ -931,7 +927,7 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-device-width : 600px) and (max-device-width : 1024px)
+@media only screen and (min-device-width : 600px) and (max-device-width : 1025px)
 {
         #bloc-page {
                 max-width: 900px;
