@@ -40,17 +40,11 @@ h3 {    font-weight: 600;
 
 strong { font-weight: bold;}
 
-p {     
-        font-size: 14px;
-}
+p {font-size: 14px;}
 
 /****LINKS-CLASSES****/
 
-a {     
-        text-decoration: none;
-        color: #000000;
-}  
-
+a {text-decoration: none;}  
 
 /****TOP-PAGE-CONTENT****/
 
@@ -85,12 +79,9 @@ header{
         width: 95px;
 }
 
-.no-margin{margin: 0;
-}
+.no-margin{margin: 0}
 
-nav {
-        width: 410px;
-}
+nav {width: 410px;}
 
 .nav-bar { 
         font-size: 16px;
@@ -108,21 +99,22 @@ nav {
 .navborder{
         font-size: 18px;
         align-content: center;
+        
 }
 
-.navborder:hover {
+.navborder:hover { 
        
 }
 
-header nav ul li{
+header nav ul li {
         border-top: solid 2px transparent;
         padding: 40px 35px 41px 30px;
+        color: #000000;
 }
 
 header nav ul li:hover {
         border-top: solid 2px #0065FC;
-        color: #0065FC;
-        
+        color: #0065FC;       
 }       
 
 .fa-star-grey {
@@ -454,6 +446,7 @@ article{margin-top: 60px;}
 }
 
 .article-text{
+        color: #000000;
         font-weight: bold;
         font-size: 16px;
         padding-left: 20px;
@@ -554,8 +547,7 @@ footer {
 
 @media (min-width:500px) and (max-width:1250px){
         #bloc-page {
-                max-width: 1340px;
-                margin: 0 10px;
+                max-width: 1240px;
         }
 
         #pomegues-card {
@@ -583,7 +575,7 @@ footer {
 @media only screen and (min-width : 50px) and (max-width : 599px) {
         #bloc-page {
                 max-width: 375px;
-                margin: 0;
+                margin: 0 auto;
         }
 
         .mobilefilterwrap{
@@ -787,7 +779,7 @@ footer {
 
         .trendy-image{
                 width: 40%;
-                border-radius: 15px 0 0 15px;
+                border-radius: 20px 0 0 20px;
                 margin: 0;
         }
 
@@ -1030,7 +1022,7 @@ footer {
         }
 
         #trendy-card-3-tab{
-                width: 88%;
+                width: 80%;
                 margin-left: 0;
         }
 
@@ -1152,8 +1144,7 @@ footer {
 
         #pomegues-image, #frioul-image, #notre-dame-image, #longchamp-image{
                 width: 100%;
-                height: 300px;
-                
+                height: 300px;      
         }
 
         .tall-activity-cards{
