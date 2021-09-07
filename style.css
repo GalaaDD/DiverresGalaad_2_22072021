@@ -44,7 +44,10 @@ p {
 
 /****LINKS-CLASSES****/
 
-a {text-decoration: none;}  
+a {
+        text-decoration: none;
+        color: inherit
+}
 
 /****TOP-PAGE-CONTENT****/
 
@@ -90,25 +93,23 @@ nav {width: 410px;}
         padding: 0;
 }
 
+.navborder{
+        font-size: 18px;
+}
+
+.navborder:hover{
+        color:#0065FC;   
+}
+
 #nav-button3{
         color:#0065FC;
         font-weight: bold;
         margin-right: 25px;
 }
 
-.navborder{
-        font-size: 18px;
-        align-content: center; 
-}
-
-.navborder:hover { 
-       
-}
-
 header nav ul li {
         border-top: solid 2px transparent;
         padding: 40px 35px 41px 30px;
-        color: #000000;
 }
 
 header nav ul li:hover {
@@ -818,7 +819,7 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-width : 600px) and (max-width : 1025px) {
+@media only screen and (min-width : 600px) and (max-width : 1025px){
         #bloc-page {max-width: 900px;}
 
         .mobilefilterwrap{
