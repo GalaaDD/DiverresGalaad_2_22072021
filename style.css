@@ -91,6 +91,7 @@ nav {width: 410px;}
         display: flex;
         justify-content: center;
         padding: 0;
+        margin:0;
 }
 
 .navborder{
