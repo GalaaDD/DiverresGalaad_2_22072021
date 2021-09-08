@@ -514,9 +514,9 @@ footer {
 
 /****RESPONSIVE-MOBILE****/
 
-@media only screen and (min-width : 50px) and (max-width : 599px) {
+@media only screen and (min-width : 50px) and (max-width : 483px) {
         #bloc-page {
-                max-width: 375px;
+                max-width: 100%;
                 margin: 0 auto;
         }
 
@@ -820,8 +820,8 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-width : 600px) and (max-width : 1025px){
-        #bloc-page {max-width: 900px;}
+@media only screen and (min-width : 483px) and (max-width : 1025px){
+        #bloc-page {max-width: 100%;}
 
         .mobilefilterwrap{
                 flex-direction: column;
