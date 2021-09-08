@@ -485,8 +485,6 @@ footer {
         background-color: #F2F2F2;
 }
 
-.footer-titles{margin-bottom: 25px;}
-
 .information_section{width: 30%;}
 
 .information-text{
@@ -514,9 +512,9 @@ footer {
 
 /****RESPONSIVE-MOBILE****/
 
-@media only screen and (min-width : 50px) and (max-width : 599px) {
+@media only screen and (min-width : 50px) and (max-width : 483px) {
         #bloc-page {
-                max-width: 375px;
+                max-width: 100%;
                 margin: 0 auto;
         }
 
@@ -539,7 +537,11 @@ footer {
 
         header{
                 flex-wrap: wrap;
-                margin: 45px auto 10px auto;
+                margin: 45px auto 35px auto;
+        }
+
+        header, #research-section{
+                margin-left: 0;;
         }
 
         .logo-container{
@@ -547,7 +549,10 @@ footer {
                 width: 70%;
         }
 
-        nav { order: 2;}
+        nav { 
+                order: 2;
+                margin-top: 20px;
+        }
 
         .nav-bar{justify-content:unset;}
 
@@ -796,32 +801,29 @@ footer {
         /****FOOTER-RESPONSIVE-MOBILE****/
         footer{
                 flex-direction: column;
-                align-items: flex-start;
+                align-items: center;
                 font-size: 16px;
                 margin: 50px auto auto auto;
-                padding: 0 0 50px 0;
+                padding: 45px 0 50px 0;
                 width: auto;
         }
 
-        .information_section{width: auto;}
+        .information_section{width: 100%;}
 
-        .footer-titles{margin-top: 45px;}
-
-        .information-text{width: auto;}
-
-        #footer-margin1 {
-                margin-top: 0;
-                margin-bottom: 45px;
+        .information-text{
+                line-height: 20px;
         }
 
-        #footer-margin2{margin-bottom: 45px;}
+        .footer-titles{
+                margin-bottom: 25px;
+        }
 }
 
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-width : 600px) and (max-width : 1025px){
-        #bloc-page {max-width: 900px;}
+@media only screen and (min-width : 483px) and (max-width : 1025px){
+        #bloc-page {max-width: 100%;}
 
         .mobilefilterwrap{
                 flex-direction: column;
