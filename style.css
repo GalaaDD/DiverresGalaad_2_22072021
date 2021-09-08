@@ -612,11 +612,17 @@ footer {
 
         .filter{margin-left: 20px;}
 
-        #filter-button1, #filter-button2, #filter-button3, #filter-button4  {font-size: 24px;}
+        #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
+                font-size: 24px;
+                margin-left: 6px;
+        }
 
         #filter-button1{margin-right: 10px;}
 
-        .filter-title-size{margin: 0;}
+        .filter-title-size{
+                margin:0 ;
+                margin-left: 6px;
+        }
 
         .margfiltertitle{width: 100%;}
 
