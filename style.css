@@ -496,7 +496,7 @@ footer {
 
 /******RESPONSIVE-DESKTOP******/
 
-@media (min-width:500px) and (max-width:1250px){
+@media (min-width:1009px) and (max-width:1250px){
         #bloc-page {max-width: 1240px;}
 
         header, #research-section{
@@ -512,7 +512,7 @@ footer {
 
 /****RESPONSIVE-MOBILE****/
 
-@media only screen and (min-width : 50px) and (max-width : 483px) {
+@media only screen and (min-width : 50px) and (max-width : 500px) {
         #bloc-page {
                 max-width: 100%;
                 margin: 0 auto;
@@ -540,18 +540,15 @@ footer {
                 margin: 45px auto 35px auto;
         }
 
-        header, #research-section{
-                margin-left: 0;;
-        }
-
         .logo-container{
                 padding-left: 20px;
+                margin-bottom: 25px;
                 width: 70%;
         }
 
         nav { 
                 order: 2;
-                margin-top: 20px;
+                width: 100%;
         }
 
         .nav-bar{justify-content:unset;}
@@ -561,7 +558,7 @@ footer {
         .navborder:hover{border-top: none;}
 
         #nav-button3{
-                font-size: 14px;
+                font-size: 14.5px;
                 margin:0;
         }
 
@@ -617,11 +614,17 @@ footer {
 
         .filter{margin-left: 20px;}
 
-        #filter-button1, #filter-button2, #filter-button3, #filter-button4  {font-size: 24px;}
+        #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
+                font-size: 24px;
+                margin-left: 6px;
+        }
 
         #filter-button1{margin-right: 10px;}
 
-        .filter-title-size{margin: 0;}
+        .filter-title-size{
+                margin:0 ;
+                margin-left: 6px;
+        }
 
         .margfiltertitle{width: 100%;}
 
@@ -715,6 +718,10 @@ footer {
                 background-color: #ffffff;
                 margin-top: 24.4px;
                 align-content: unset;
+        }
+
+        #main-title{
+                margin-left: 5%;
         }
 
         .main-text-size{
@@ -822,7 +829,7 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-width : 483px) and (max-width : 1025px){
+@media only screen and (min-width: 501px) and (max-width : 1025px){
         #bloc-page {max-width: 100%;}
 
         .mobilefilterwrap{
@@ -863,7 +870,6 @@ footer {
                 background-color: #F2F2F2;
                 border-radius: 0;
                 padding: 20px 20px 17px 20px;
-                margin-left: 0;
         }
 
         .aside-main-title{
