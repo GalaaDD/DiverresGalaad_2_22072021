@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 /****GENERAL-TEXT-AND-CLASSES****/	
+body, html {
+        font-family: 'Raleway', sans-serif;
+        margin:0;
+}
 
 #bloc-page {
         max-width: 1340px;
@@ -10,16 +14,12 @@
 
 .desktop-none {display: none;}
 
-body, html {
-        font-family: 'Raleway', sans-serif;
-        margin:0;
-}
-
 ul {list-style-type:  none;}
 
 img{object-fit: cover;}
 
-h3 {    font-weight: 600;
+h3 {    
+        font-weight: 600;
         color: black
 }
 
@@ -45,28 +45,22 @@ p {
 
 .no-margin{margin: 0}
 
+.grey-star {
+        color:#e0e0e0;
+        font-size: 12px;
+}
+
+.blue-star {
+        color: #0065FC;
+        font-size: 12px;
+}
+
 /****LINKS-CLASSES****/
 
 a {
         text-decoration: none;
         color: inherit;
 }
-
-/****TOP-PAGE-CONTENT****/
-
-#page-main-title{
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 0;
-        margin-bottom: 14px;
-}
-
-#top-page-text{
-        font-size: 16px;
-        margin-top: 0;
-        margin-bottom: 20px;
-}
-
 header{
         display: flex; 
         align-items: center;
@@ -119,17 +113,24 @@ header nav ul li:hover {
         color: #0065FC;       
 }       
 
-.fa-star-grey {
-        color:#e0e0e0;
-        font-size: 12px;
+/****TOP-PAGE-CONTENT****/
+
+
+#page-main-title{
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 14px;
 }
 
-.fa-star-blue {
-        color: #0065FC;
-        font-size: 12px;
+#top-page-text{
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 20px;
 }
 
 /****RESEARCH-SECTION****/
+
 #searchbar {display: flex;}
 
 .search-border{width: 400px;}
@@ -138,7 +139,10 @@ header nav ul li:hover {
         width: 50px;
         border: none; 
         border-radius: 15px 0 0 15px;
+        color:#000000;
 }
+
+.iconsize:hover{cursor: pointer;}
 
 #localization-button, #localization-logo {
         font-size: 20px;
@@ -147,10 +151,6 @@ header nav ul li:hover {
         border: none;
         border-radius: 50px 0 0 50px;
 }
-
-.fa-location-dot{color:#000000;}
-
-.fa-location-dot:hover{cursor: pointer;}
 
 #search-button{
         font-weight: 500;
@@ -180,11 +180,9 @@ header nav ul li:hover {
         border: solid 1px #F2F2F2 ;
 }
 
-
-
                                                /****FILTER-SECTION****/
 
-/*flex-start:mobile-responsive*/
+/*flex:mobile-responsive*/
 
 .filter {display: flex;}
 
@@ -192,7 +190,7 @@ header nav ul li:hover {
 
 .filter-buttons-div{flex-wrap: wrap;}
 
-#filter-button1, #filter-button2, #filter-button3, #filter-button4  {
+.filter-button {
         display: flex;
         align-items: center;
         font-weight: bold;
@@ -200,14 +198,15 @@ header nav ul li:hover {
         color: #000000;
         border-radius: 25px;
         height: 46px;
+        margin: 0 20px 20px 0;
 }
 
-.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog {
+.filter-button i{
         color:#0065FC;
-        border-radius: 25px;
+        border-radius: 25px
 }
 
-.fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
+.filter-button i:before{
         background-color: #deebff;
         display: flex;
         justify-content: center;
@@ -217,7 +216,7 @@ header nav ul li:hover {
         border-radius: 25px;
 }
 
-#filter-button1:hover, #filter-button2:hover, #filter-button3:hover, #filter-button4:hover {
+.filter-button:hover {
         background-color: #0065FC;
         color: #deebff;
 }
@@ -228,8 +227,7 @@ header nav ul li:hover {
 
 .filter-text-icons{
         border: 2px solid #e8d9d9;
-        border-left: 0;
-        margin: 0 20px 20px 0;
+        border-left: 0;   
 }
 
 .margfilter{
@@ -255,9 +253,9 @@ header nav ul li:hover {
         margin-top: 1.5px;
 }
 
-.fa-info{color: #0065FC;}
+.icon-parent i{color: #0065FC;}
 
-.fa-info:before{margin-left: 8.5px;}
+.icon-parent i:before{margin-left: 8.5px;}
 
 .icon-parent {
         width: 20px;
@@ -354,7 +352,7 @@ header nav ul li:hover {
         margin-bottom:9px;
 }
 
-.fa-chart-line{color: #000000;}
+
 
 .aside-text{
         margin-top: 0;
@@ -390,7 +388,9 @@ header nav ul li:hover {
 
 /****ARTICLE****/
 
-article{margin-top: 60px;}	
+article{
+        margin-top: 60px;
+}	
 
 #article-cards-section{
         display: flex;
@@ -613,13 +613,11 @@ footer {
         /******FILTER-SECTION******/
 
         .filter{margin-left: 20px;}
-
-        #filter-button1, #filter-button2, #filter-button3, #filter-button4  {
+  
+        .filter-button   {
                 font-size: 24px;
-                margin-left: 6px;
+                margin: 14px 10px 0 0;
         }
-
-        #filter-button1{margin-right: 10px;}
 
         .filter-title-size{
                 margin:0 ;
@@ -638,13 +636,16 @@ footer {
                 margin-top: 40px;
                 margin-bottom: 35px;
         }
-        
-        .filter-text-icons{margin: 14px 0 0 0;}
+
+        .filter-button i:before {
+                font-size: 20px;
+        }
 
         .icon-parent{margin-right: 10px;}
 
-        .fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
-                font-size: 20px;
+        .icon-parent i:before{
+                font-size: 12px;
+                margin: 8.5px;
         }
 
         #info{margin-left: 20px;}
@@ -653,11 +654,7 @@ footer {
                 font-size: 14px;
                 margin-top: 4px;
         }
-
-        .fa-info:before{
-                font-size: 12px;
-                margin: 8.5px;
-        }
+        
 
         /****ASIDE-SECTION-RESPONSIVE-MOBILE****/
 
@@ -668,8 +665,6 @@ footer {
                 border-radius: 0;
                 padding: 30px 22px 25px 20px;
         }
-
-        .fa-chart-line{color: #000000;}
 
         .aside-main-title{
                 min-width: unset;
@@ -806,6 +801,7 @@ footer {
         .article-text{font-size: 14px;}
 
         /****FOOTER-RESPONSIVE-MOBILE****/
+        
         footer{
                 flex-direction: column;
                 align-items: center;
@@ -854,9 +850,9 @@ footer {
         .text-filter{
                 padding-left: 10px;
                 padding-right: 15px;    
-            }
+        }
 
-        .fa-money-bill-wave:before,.fa-child:before,.fa-heart:before,.fa-dog:before {
+        .filter-button:before{
                 font-size: 20px;
         }
 
@@ -878,8 +874,6 @@ footer {
                 justify-content: space-between;
                 align-items: center;
         }
-
-        .fa-chart-line{color: #000000;}
 
         .aside-secondary-titles{font-size: 18px;}
 
