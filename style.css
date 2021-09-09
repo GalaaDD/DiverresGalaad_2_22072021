@@ -514,7 +514,7 @@ footer {
 
 /****RESPONSIVE-MOBILE****/
 
-@media only screen and (min-width : 50px) and (max-width : 483px) {
+@media only screen and (min-width : 50px) and (max-width :500px) {
         #bloc-page {
                 max-width: 100%;
                 margin: 0 auto;
@@ -547,7 +547,10 @@ footer {
                 width: 70%;
         }
 
-        nav { order: 2;}
+        nav { 
+                order: 2;
+                width: 100%;
+        }
 
         .nav-bar{justify-content:unset;}
 
@@ -718,6 +721,10 @@ footer {
                 align-content: unset;
         }
 
+        #main-title{
+                margin-left: 5%;
+        }
+
         .main-text-size{
                 margin-bottom: 5px;
                 line-height: 10px;
@@ -826,7 +833,7 @@ footer {
 
 /****RESPONSIVE- TABS****/
 
-@media only screen and (min-width : 483px) and (max-width : 1025px){
+@media only screen and (min-width: 501px) and (max-width : 1025px){
         #bloc-page {max-width: 100%;}
 
         .mobilefilterwrap{
