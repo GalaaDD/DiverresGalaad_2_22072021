@@ -498,7 +498,7 @@ footer {
 
 /******RESPONSIVE-DESKTOP******/
 
-@media (min-width:500px) and (max-width:1250px){
+@media (min-width:1009px) and (max-width:1250px){
         #bloc-page {max-width: 1240px;}
 
         header, #research-section{
@@ -514,7 +514,7 @@ footer {
 
 /****RESPONSIVE-MOBILE****/
 
-@media only screen and (min-width : 50px) and (max-width :500px) {
+@media only screen and (min-width : 50px) and (max-width : 500px) {
         #bloc-page {
                 max-width: 100%;
                 margin: 0 auto;
@@ -539,11 +539,12 @@ footer {
 
         header{
                 flex-wrap: wrap;
-                margin: 45px auto 10px auto;
+                margin: 45px auto 35px auto;
         }
 
         .logo-container{
                 padding-left: 20px;
+                margin-bottom: 25px;
                 width: 70%;
         }
 
@@ -559,7 +560,7 @@ footer {
         .navborder:hover{border-top: none;}
 
         #nav-button3{
-                font-size: 14px;
+                font-size: 14.5px;
                 margin:0;
         }
 
