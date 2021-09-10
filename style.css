@@ -226,7 +226,7 @@ header nav ul li:hover {
 .margfiltertitle{margin-right: 30px;}
 
 .filter-text-icons{
-        border: 2px solid #e8d9d9;
+        border: 2px solid #F2F2F2;
         border-left: 0;   
 }
 
@@ -299,7 +299,7 @@ header nav ul li:hover {
 .hebergement {
         background-color: #ffffff;
         border-radius: 20px;
-        padding: 5px;
+        padding:5px 5px 10px 5px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
         margin-bottom: 25px;
 }
@@ -312,10 +312,8 @@ header nav ul li:hover {
 
 .host-text {
         padding-left: 15px;
-        line-height: 6px;   
+        line-height: 10px;   
 }
-
-.main-text-size{margin-bottom: 10px;}
 
 .stars-icons-main{font-size: 12px;}
 
@@ -348,15 +346,13 @@ header nav ul li:hover {
 
 .aside-secondary-titles{
         font-size: 15px;
-        margin-top: 6%;
-        margin-bottom:9px;
+        margin-top: 4.5%;
+        margin-bottom:8px;
 }
-
-
 
 .aside-text{
         margin-top: 0;
-        margin-bottom: 28%;
+        margin-bottom: 23%;
 }
 
 .card-link{
@@ -384,7 +380,10 @@ header nav ul li:hover {
 
 .trendy-text-card{width: 45%;}
 
-.stars-icons-trendy{font-size: 12px;}
+.stars-icons-trendy{
+        font-size: 12px;
+        padding-bottom: 5px;
+}
 
 /****ARTICLE****/
 
@@ -542,13 +541,13 @@ footer {
 
         .logo-container{
                 padding-left: 20px;
-                margin-bottom: 25px;
                 width: 70%;
         }
 
         nav { 
                 order: 2;
                 width: 100%;
+                margin-top: 25px;
         }
 
         .nav-bar{justify-content:unset;}
@@ -731,6 +730,7 @@ footer {
                 width: 87%;
                 margin-bottom: 12px;
                 border-radius: 20px;
+                padding: 5px 5px 0 5px;
         }
 
         .host-image {
